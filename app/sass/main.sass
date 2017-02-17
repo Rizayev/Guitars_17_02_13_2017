@@ -1,0 +1,86 @@
+@import url("fonts.css");
+
+html,body
+  overflow-x: hidden
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+.container
+  //border: 1px solid red
+.top-header
+  min-height: 79px
+  background-color: #ededed
+  display: flex
+  align-items: center
+  justify-content: space-between
+  .nav li a
+    font-family: "Minion Pro"
+    font-size: 17px
+    font-weight: 400
+    text-transform: uppercase
+    color: #000000
+    padding-bottom: 0
+    &:hover:after
+      content: ""
+      position: absolute
+      left: 0
+      bottom: -3px
+      right: 0
+      margin: auto
+      background: #000
+      width: 57px
+      height: 2px
+  .navbar-toggle
+    background: url("../img/hamburger.png") no-repeat
+    border: none
+    cursor: pointer
+.top-header__phone
+  color: #606060
+  font-family: "Minion Pro"
+  font-size: 18px
+  font-weight: 400
+  text-transform: uppercase
+  margin: 0
+  margin-top: 12px
+.phone-icon
+  position: fixed
+  right: 0
+  top: 160px
+  right: 65px
+  cursor: pointer
+.header
+  background: url("../img/acustic/header-bg.jpg") no-repeat
+  min-height: 100vh
+  background-size: contain
+  background-position: center -2px
+.menu-icons
+  margin-bottom: 170px
+.header-h1
+  font-family: "Minion Pro"
+  font-size: 40px
+  font-weight: 700
+  line-height: 65px
+  text-transform: uppercase
+  color: #1e1e1e
+.header-h2
+  color: #1e1e1e
+  font-family: 'Open Sans', sans-serif
+  font-size: 19px
+  font-weight: 400
+  line-height: 36px
+
+.header--form
+  padding: 0
+  input
+    display: inline-block
+    width: 40%
+    border: none
+    border-bottom: 1px solid #000
+    background: transparent
+    height: 40px
+    margin-right: 40px
+    color: #000
+    font-size: 18px
+    margin-bottom: 60px
+    outline: none
+    &::-webkit-input-placeholder
+      color: #000
