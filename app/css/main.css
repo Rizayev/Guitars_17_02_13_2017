@@ -97,3 +97,15 @@ html, body {
     outline: none; }
     .header--form input::-webkit-input-placeholder {
       color: #000; }
+
+.header--form__btn {
+  color: #000;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  background: url("../img/sw-sam-ciurdar-2.jpg");
+  width: 228px;
+  height: 53px;
+  border: none; }
