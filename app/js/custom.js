@@ -18,4 +18,29 @@ var wow = new WOW(
 wow.init();
 $(function () {
     $('[data-toggle="tooltip"]').tooltip()
-})
+
+
+    $(document).ready(function(){
+        var p = $('.block-2 .info');
+        var tf = 0;
+        $(document).scroll(function(){
+            var st = $(this).scrollTop() + window.innerHeight;
+            if(st > p.offset().top){
+
+                if (tf == 0){
+
+                    $('#count1').prop('number', 0).animateNumber({number: 300},1500);
+                    $('#count2').prop('number', 0).animateNumber({number: 200},1500);
+                    $('#count3').prop('number', 0).animateNumber({number: 120},1500);
+                    $('#count4').prop('number', 0).animateNumber({number: 12},1500);
+                    tf = 1;
+                }
+            }else {
+
+            }
+        });
+    });
+
+
+
+});

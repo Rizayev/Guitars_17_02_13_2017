@@ -126,7 +126,8 @@ html, body {
   .block-2__feature img {
     display: block;
     margin: 0 auto;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    height: 140px; }
   .block-2__feature p {
     color: #575a59;
     font-family: "Minion Pro";
@@ -136,7 +137,9 @@ html, body {
     padding: 0; }
   .block-2__feature p.count {
     font-size: 50px;
-    font-weight: 700; }
+    font-weight: 700;
+    margin-bottom: 10px; }
   .block-2__feature p.info {
     font-size: 17px;
-    font-weight: 400; }
+    font-weight: 400;
+    line-height: 32px; }
