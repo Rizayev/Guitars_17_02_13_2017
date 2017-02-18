@@ -1,4 +1,14 @@
 /* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .block-3__lessons > div:nth-child(3) .block-3__lessons__title:after {
+    content: none; }
+  .block-3__lessons__title {
+    font-size: 30px; }
+  .block-3__lessons__info {
+    width: 256px;
+    margin: 0 auto;
+    font-size: 18px; } }
+
 /* Medium Devices, Desktops */
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
@@ -6,4 +16,21 @@
     display: block; } }
 
 /* Extra Small Devices, Phones */
+@media only screen and (max-width: 767px) {
+  .block-3__lessons__title {
+    position: relative; }
+    .block-3__lessons__title:after {
+      width: 15%; }
+    .block-3__lessons__title:before {
+      content: ' ';
+      display: block;
+      position: absolute;
+      height: 1px;
+      background: #b8b8b8;
+      top: 26px;
+      left: -17px;
+      width: 15%; }
+  .block-3__lessons > div:nth-child(3) .block-3__lessons__title:after, .block-3__lessons > div:last-child .block-3__lessons__title:after {
+    content: ' '; } }
+
 /* Custom, iPhone Retina */

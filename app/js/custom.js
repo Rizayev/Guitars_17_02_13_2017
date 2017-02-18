@@ -40,7 +40,11 @@ $(function () {
             }
         });
     });
+$('.block-3__gallery img').click(function () {
+    var imgIndex = $(this).parent().index();
+    $('#block-2__gallery a').eq(imgIndex).click();
 
-
+});
+    $("#block-2__gallery").lightGallery();
 
 });
