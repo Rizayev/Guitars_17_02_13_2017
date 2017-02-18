@@ -47,4 +47,13 @@ $('.block-3__gallery img').click(function () {
 });
     $("#block-2__gallery").lightGallery();
 
+    var p = $('.block-2__h2');
+    $(document).scroll(function(){
+        var st = $(this).scrollTop() + window.innerHeight;
+        if(st > p.offset().top) {
+            $('.top-header').addClass('fixed animated fadeIn');
+        }else {
+            $('.top-header').removeClass('fixed animated fadeIn');
+        }
+    });
 });

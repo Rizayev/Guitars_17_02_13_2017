@@ -4,6 +4,13 @@ html, body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+.fixed {
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s; }
+
 .top-header {
   min-height: 79px;
   background-color: #ededed;
