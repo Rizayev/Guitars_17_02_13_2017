@@ -8,9 +8,7 @@ html, body {
   width: 100%;
   position: fixed;
   z-index: 9999;
-  border-bottom: 1px solid #ccc;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s; }
+  border-bottom: 1px solid #ccc; }
 
 .top-header {
   min-height: 79px;
@@ -196,7 +194,8 @@ html, body {
 
 .block-3 {
   background: url("../img/acustic/bl3-bg.jpg") no-repeat;
-  background-position: bottom center; }
+  background-position: bottom center;
+  margin-bottom: 130px; }
 
 .block-3__h2 {
   color: #5b5c5a;
@@ -262,3 +261,26 @@ html, body {
   line-height: 24px;
   text-align: center;
   text-transform: uppercase; }
+
+.block-4__h2 {
+  color: #5b5c5a;
+  font-family: "Minion Pro", sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 100px;
+  text-transform: uppercase;
+  text-align: center; }
+
+.block-4__video img {
+  margin-bottom: 17px;
+  cursor: pointer; }
+
+.block-4__video__info {
+  color: #5a5a58;
+  font-family: "Open Sans";
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: center; }
+  .block-4__video__info span {
+    font-weight: 400; }
