@@ -262,6 +262,9 @@ html, body {
   text-align: center;
   text-transform: uppercase; }
 
+.block-4 {
+  margin-bottom: 180px; }
+
 .block-4__h2 {
   color: #5b5c5a;
   font-family: "Minion Pro", sans-serif;
@@ -269,7 +272,8 @@ html, body {
   font-weight: 400;
   line-height: 100px;
   text-transform: uppercase;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 45px; }
 
 .block-4__video img {
   margin-bottom: 17px;
@@ -284,3 +288,95 @@ html, body {
   text-align: center; }
   .block-4__video__info span {
     font-weight: 400; }
+
+.block-5 {
+  background: url("../img/acustic/bl5-bg.jpg") no-repeat;
+  background-size: cover; }
+
+.block-5__h2 {
+  color: #5b5c5a;
+  font-family: "Minion Pro", sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 100px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 0; }
+
+.block-5__p1, .block-5__p2 {
+  color: #5a5a58;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 20px; }
+
+.block-5__p2 {
+  margin-bottom: 50px; }
+
+.price .price-item {
+  width: 416px;
+  background: url("../img/acustic/pattern1.jpg") no-repeat;
+  height: 575px;
+  margin: 0 auto;
+  -webkit-box-shadow: 1px 1px 10px #000;
+          box-shadow: 1px 1px 10px #000;
+  margin-bottom: 40px; }
+
+.price-item__note {
+  padding-top: 67px;
+  margin-bottom: 50px; }
+
+.price-item__title {
+  color: #ffffff;
+  font-family: "Minion Pro", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 25px; }
+
+.price-item__worktime, .price-item__contime {
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center; }
+
+.price-item__contime {
+  margin-bottom: 35px; }
+
+.price-item__price {
+  color: #ffffff;
+  font-family: "Minion Pro", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 33px; }
+
+.price-item__btn {
+  width: 192px;
+  height: 53px;
+  border: none;
+  outline: none;
+  background: url("../img/acustic/price-item-btn.jpg") #f8ae15;
+  display: block;
+  margin: 0 auto;
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase; }
+
+.price-info {
+  color: #5a5a58;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center; }
