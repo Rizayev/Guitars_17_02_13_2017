@@ -398,7 +398,8 @@ h2 {
   background: url("../img/acustic/bl6-bg.jpg") no-repeat;
   background-size: contain;
   background-position: 0 100px;
-  padding-bottom: 80px; }
+  padding-bottom: 80px;
+  margin-bottom: 120px; }
 
 .block-6__h2 {
   margin-bottom: 100px; }
@@ -428,3 +429,22 @@ h2 {
 
 .teachers {
   margin-bottom: 100px; }
+  .teachers img {
+    cursor: pointer; }
+
+.reviews > div {
+  margin-bottom: 150px; }
+
+.review-text {
+  color: #5b5c5a;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px; }
+
+.review-author {
+  color: #5b5c5a;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px; }
