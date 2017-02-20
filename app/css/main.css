@@ -66,6 +66,7 @@ h2 {
   margin-top: 12px; }
 
 .phone-icon {
+  width: 80%;
   position: fixed;
   top: 160px;
   right: 65px;
