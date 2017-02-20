@@ -56,4 +56,12 @@ $('.block-3__gallery img').click(function () {
             $('.top-header').removeClass('fixed animated fadeIn');
         }
     });
+
+    var $root = $('html, body');
+    $('a').click(function() {
+        $root.animate({
+            scrollTop: $( $.attr(this, 'href') ).offset().top-80
+        }, 500);
+        return false;
+    });
 });
