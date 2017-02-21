@@ -76,7 +76,6 @@ h2 {
 .header {
   background: url("../img/acustic/header-bg.jpg") no-repeat;
   min-height: 100vh;
-  background-size: contain;
   background-position: center -2px; }
 
 .menu-icons {
@@ -306,7 +305,7 @@ h2 {
   background: url("../img/acustic/bl5-bg.jpg") no-repeat;
   background-size: cover;
   padding-bottom: 150px;
-  background-position-y: -120px; }
+  background-position-y: -180px; }
 
 .block-5__h2 {
   color: #5b5c5a;
@@ -399,8 +398,7 @@ h2 {
 
 .block-6 {
   background: url("../img/acustic/bl6-bg.jpg") no-repeat;
-  background-size: contain;
-  background-position: 50px 100px;
+  background-size: cover;
   padding-bottom: 80px;
   margin-bottom: 120px; }
 
