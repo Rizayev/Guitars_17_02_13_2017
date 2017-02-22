@@ -472,7 +472,8 @@ h2 {
 .footer {
   background: url("../img/acustic/footer-bg.jpg") no-repeat;
   background-size: cover;
-  min-height: 100vh; }
+  min-height: 100vh;
+  background-position-y: -259px; }
   .footer h2 {
     text-align: left;
     padding: 0;
