@@ -411,7 +411,7 @@ h2 {
   text-align: center; }
 
 .block-6 {
-  background: url("https://psv4.vk.me/c810537/u88700972/docs/f4a69cd37087/Guitar_School_acustic_pic1.jpg") no-repeat;
+  background: url("../img/acustic/Guitar_School_acustic_pic1.jpg") no-repeat;
   background-size: cover;
   padding-bottom: 80px;
   margin-bottom: 120px; }
@@ -470,7 +470,7 @@ h2 {
   margin-bottom: 50px; }
 
 .footer {
-  background: url("https://psv4.vk.me/c810537/u88700972/docs/3476bdb75f39/Guitar_School_acustic_pic2.jpg") no-repeat;
+  background: url("../img/acustic/Guitar_School_acustic_pic2.jpg") no-repeat;
   background-size: cover;
   min-height: 100vh;
   background-position-y: -124px; }
