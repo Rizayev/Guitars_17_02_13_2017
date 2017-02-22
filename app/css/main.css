@@ -472,8 +472,7 @@ h2 {
 .footer {
   background: url("../img/acustic/Guitar_School_acustic_pic2.jpg") no-repeat;
   background-size: cover;
-  min-height: 100vh;
-  background-position-y: -124px; }
+  min-height: 100vh; }
   .footer h2 {
     text-align: left;
     padding: 0;
