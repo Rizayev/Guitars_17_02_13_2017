@@ -124,6 +124,8 @@
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 640px) {
+  .price-item__note {
+    max-width: 100%; }
   .phone-icon {
     top: auto;
     bottom: 20px;
@@ -184,8 +186,6 @@
     left: 15px; }
   .price-item__title {
     font-size: 26px; }
-  .price-item__note {
-    max-width: 100%; }
   .footer {
     padding: 0; }
   .review-text {
