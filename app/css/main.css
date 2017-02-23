@@ -16,7 +16,7 @@ h2 {
 .fixed {
   width: 100%;
   position: fixed;
-  z-index: 9999;
+  z-index: 999;
   border-bottom: 1px solid #ccc; }
 
 .top-header {
@@ -92,8 +92,12 @@ h2 {
     margin-right: 10px; }
   .menu-icons span {
     position: absolute;
-    left: 5px;
+    left: 0px;
     top: 60px; }
+  .menu-icons .menu-icons__2 {
+    left: 9px; }
+  .menu-icons .menu-icons__3 {
+    left: 14px; }
 
 .header-h1 {
   font-family: "Minion Pro", sans-serif;
@@ -514,3 +518,55 @@ h2 {
     padding-left: 30px; }
     .footer .social li {
       margin-bottom: 15px; }
+
+#myModal .modal-dialog {
+  width: 941px; }
+
+#myModal .modal-content {
+  height: 578px;
+  background: url("../img/acustic-bg-modal.jpg"); }
+
+#myModal .modal-header {
+  border: none; }
+
+#myModal .modal-h4 {
+  color: #9e8860;
+  font-family: "Minion Pro", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px; }
+
+#myModal .modal-p {
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 20px; }
+
+#myModal .header--form {
+  width: 252px;
+  margin: 0 auto; }
+  #myModal .header--form input {
+    width: 100%;
+    display: block;
+    margin-bottom: 45px; }
+  #myModal .header--form .footer-btn {
+    width: 227px;
+    height: 51px;
+    background-color: #ffb215;
+    background-image: -webkit-gradient(linear, right top, left top, from(#ffb215), to(#fbe4b4));
+    background-image: -webkit-linear-gradient(right, #ffb215 0%, #fbe4b4 100%);
+    background-image: linear-gradient(to left, #ffb215 0%, #fbe4b4 100%);
+    opacity: 0.86;
+    border: none;
+    color: #000000;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase; }

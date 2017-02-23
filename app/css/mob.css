@@ -10,6 +10,17 @@
     font-size: 18px; } }
 
 /* Medium Devices, Desktops */
+@media only screen and (max-width: 991px) {
+  #myModal .modal-dialog {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 50px; }
+  #myModal .modal-content {
+    background: url("../img/modal-bg-rep.jpg");
+    height: auto;
+    padding-bottom: 50px;
+    background-position-x: -150px; } }
+
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .top-header {

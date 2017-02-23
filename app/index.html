@@ -56,9 +56,9 @@
 <section class="header">
     <div class="container">
         <div class="menu-icons">
-            <a href="#electro"><img data-toggle="tooltip" data-placement="bottom" title="Электро" class="wow pulse infinite" data-wow-duration="3s" src="img/electro.png" alt=""><span>Электро</span></a>
-            <a href="#vocal"><img data-toggle="tooltip" data-placement="bottom" title="Вокал" class="wow pulse infinite" data-wow-duration="3s" src="img/vokal.png" alt=""><span>Вокал</span></a>
-            <a href="#deti"><img data-toggle="tooltip" data-placement="bottom" title="Дети" class="wow pulse infinite" data-wow-duration="3s" src="img/child.png" alt=""><span>Дети</span></a>
+            <a href="#electro"><img data-toggle="tooltip" data-placement="bottom" title="Электро" class="wow pulse infinite" data-wow-duration="3s" src="img/electro.png" alt=""><span class="menu-icons__1">Электро</span></a>
+            <a href="#vocal"><img data-toggle="tooltip" data-placement="bottom" title="Вокал" class="wow pulse infinite" data-wow-duration="3s" src="img/vokal.png" alt=""><span class="menu-icons__2">Вокал</span></a>
+            <a href="#deti"><img data-toggle="tooltip" data-placement="bottom" title="Дети" class="wow pulse infinite" data-wow-duration="3s" src="img/child.png" alt=""><span class="menu-icons__3">Дети</span></a>
         </div>
 
         <h1 class="header-h1">
@@ -550,6 +550,44 @@
     <a href="img/acustic/bl3-img5.jpg"></a>
 </div>
 <!--BLOCK-2 GALLERY-->
+
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+    Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-6">
+                        <h4 class="modal-h4">оставить заявку на
+                            пробное бесплатное
+                            занятие</h4>
+                        <p class="modal-p">
+                            После того как вы оставите <br>
+                            заявку, мы свяжемся с вами <br>
+                            в течение 3 минут!
+                        </p>
+                        <form action="#" class="header--form">
+                            <input type="text" name="name" placeholder="Имя">
+                            <input type="text" name="phone" placeholder="Телефон">
+                            <button class="footer-btn">отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <script src="js/wow.js"></script>
@@ -568,5 +606,6 @@
         background: rgba(0, 0, 0, 0.9);
     }
 </style>
+
 </body>
 </html>
