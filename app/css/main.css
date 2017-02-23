@@ -146,6 +146,9 @@ h2 {
   height: 53px;
   border: none; }
 
+.phone-icon {
+  width: 187px; }
+
 .block-2 {
   background: url("../img/bl2-bg.jpg") no-repeat;
   background-size: contain;

@@ -1,5 +1,11 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px)
+  .footer .header--form input
+    width: 90%
+  .top-header .nav li a
+    font-size: 15px
+  .phone-icon img
+    width: 60%
   .block-3__lessons > div:nth-child(3)
     .block-3__lessons__title
       &:after
@@ -12,6 +18,8 @@
     font-size: 18px
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 991px)
+  .fixed
+    position: static
   #myModal
     .modal-dialog
       width: 95%
@@ -22,12 +30,84 @@
       height: auto
       padding-bottom: 50px
       background-position-x: -150px
+  .top-header
+    .logo
+      display: block
+      margin: 25px auto
+      margin-bottom: 5px
+  .top-header__phone
+    text-align: center
+    margin-bottom: 25px
+  .header
+    margin-bottom: 100px
+  .block-2__h2,.block-4__h2
+    font-size: 26px
+    line-height: 0
+  .block-2__feature___item img
+    left: 300px
+  .block-3
+    background-position-x: -270px
+  .block-3__video .block-3__h2
+    font-size: 32px
+  .block-3__video__title
+    font-size: 24px
+  .block-4
+    margin-bottom: 50px
+  .block-5
+    padding-bottom: 100px
+    background-position: center center
+  .block-6
+    margin: 0
+    padding: 0
+  .block-6__h2
+    margin-bottom: 50px
+  .teachers img
+    margin: 0 auto
+    margin-bottom: 20px
+  .block-6__name,.block-6__position,.block-6__info
+    text-align: center
+  .block-7
+    img
+      display: block
+      margin: 0 auto
+      margin-bottom: 50px
+  .review-author
+    text-align: center
+  .reviews > div
+    margin-bottom: 50px
+  .reviews button
+    display: block
+    margin: 0 auto
+  .footer .social
+    margin-top: 50px
+    li
+      display: inline-block
+      margin-right: 10px
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px)
+  .block-3__video .block-3__h2
+    margin-bottom: 25px
   .top-header
     display: block
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 767px)
+  .top-header .logo
+    display: inline
+    float: left
+  .top-header__phone
+    font-size: 26px
+    a
+      color: #000
+  .navbar-header
+    margin-top: 30px
+  .phone-icon
+    right: -60px
+  .block-2__feature
+    margin-bottom: 30px
+  .block-3__gallery
+    margin-bottom: 30px
+  .footer
+    padding-left: 50px
   .block-3__lessons__title
     position: relative
     &:after
@@ -46,4 +126,52 @@
       &:after
         content: ' '
 /* Custom, iPhone Retina */ 
-//@media only screen and (max-width : 320px)
+@media only screen and (max-width : 640px)
+  .phone-icon
+    top: auto
+    bottom: 20px
+    left: 20px
+    img
+      width: 20%
+  .header
+    background-size: cover
+    background-position-y: -70px
+    background-position-x: -50px
+    margin-bottom: 0
+  .menu-icons
+    margin-bottom: 80px
+  .header-h1
+    font-size: 22px
+    line-height: 24px
+  .header-h2
+    text-align: center
+    font-size: 18px
+    line-height: 24px
+  .header--form input
+    width: 90%
+  .header--form__btn
+    display: block
+    margin: 0 auto
+  .block-2__h2, .block-4__h2,.block-3__h2,.block-5__h2,.block-6__h2
+    font-size: 32px
+    line-height: 36px
+  .block-2
+    padding-bottom: 70px
+  .block-3
+    margin-bottom: 50px
+  .block-3__lessons > div
+    margin-bottom: 40px
+  .block-3__video__title
+    font-size: 28px
+    line-height: 36px
+    padding: 0
+    margin: 40px 0
+  .block-4__video__info
+    margin-bottom: 20px
+  .block-5__h2
+    margin-bottom: 20px
+
+  .price .price-item
+    width: 98%
+  .footer p
+    font-size: 14px

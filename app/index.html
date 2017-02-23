@@ -43,16 +43,15 @@
             <div class="col-md-2">
                 <p class="top-header__phone">
                     <a href="tel:+74993902612" class="visible-xs">+7 499 390 26 12</a>
-                    <span class="hidden-xs">+7 499 390 26 12</span>
+                    <span class="hidden-xs" data-toggle="modal" data-target="#myModal">+7 499 390 26 12</span>
                 </p>
             </div>
         </div>
     </div>
-    <div class="phone-icon wow pulse infinite animated" data-wow-duration="3s" data-toggle="tooltip" data-placement="bottom" title="Позвоните мне!">
-        <img src="img/phone-icon.png" alt="">
-    </div>
 </div>
-
+<div class="phone-icon wow pulse infinite animated" data-wow-duration="3s" data-toggle="tooltip" data-placement="bottom" title="Позвоните мне!">
+    <img src="img/phone-icon.png" alt="">
+</div>
 <section class="header">
     <div class="container">
         <div class="menu-icons">
@@ -84,7 +83,7 @@
     <div class="container">
         <h2 class="block-2__h2">за время обучения вас ждёт</h2>
         <div class="row">
-            <div class="col-sm-6 col-md-3">
+            <div class="col-xs-6 col-md-3">
                 <div class="block-2__feature">
                     <img src="img/classical-music.png" alt="" class="img-responsive">
                     <p class="count" id="count1">300</p>
@@ -93,7 +92,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-3">
+            <div class="col-xs-6 col-md-3">
                 <div class="block-2__feature">
                     <img src="img/jazz-guitar.png" alt="" class="img-responsive">
                     <p class="count" id="count2">200</p>
@@ -102,7 +101,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-3">
+            <div class="col-xs-6 col-md-3">
                 <div class="block-2__feature">
                     <img src="img/circular-play-button.png" alt="" class="img-responsive">
                     <p class="count" id="count3">120</p>
@@ -111,7 +110,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-3">
+            <div class="col-xs-6 col-md-3">
                 <div class="block-2__feature">
                     <img src="img/music-cloud.png" alt="" class="img-responsive">
                     <p class="count" id="count4">12</p>
@@ -263,11 +262,11 @@
     <div class="container block-3__video">
         <h2 class="block-3__h2">Видеоуроки</h2>
         <div class="row">
-            <div class="col-xs-6">
+            <div class="col-sm-6">
                 <p class="block-3__video__title">Уроки по базовой теории</p>
                 <img src="img/acustic/bl3-video-1.jpg" alt="" class="img-responsive" href="//www.youtube.com/watch?v=CDadtqmeqjo" data-lity>
             </div>
-            <div class="col-xs-6">
+            <div class="col-sm-6">
                 <p class="block-3__video__title">Видеоразборы песен</p>
                 <img src="img/acustic/bl3-video-2.jpg" alt="" class="img-responsive" href="//www.youtube.com/watch?v=CDadtqmeqjo" data-lity>
             </div>
@@ -331,7 +330,7 @@
                             7 000 руб/месяц
                         </p>
 
-                        <button class="price-item__btn">
+                        <button class="price-item__btn" data-toggle="modal" data-target="#myModal">
                             записаться
                         </button>
                     </div>
@@ -357,7 +356,7 @@
                             5 500 руб/месяц
                         </p>
 
-                        <button class="price-item__btn">
+                        <button class="price-item__btn" data-toggle="modal" data-target="#myModal">
                             записаться
                         </button>
                     </div>
@@ -399,7 +398,12 @@
             </div>
         </div>
         <div class="row teachers">
-            <div class="col-md-4">
+
+            <div class="col-md-6 col-md-push-4">
+                <img src="img/acustic/teacher_2.jpg" alt="" class="img-responsive" href="//www.youtube.com/watch?v=CDadtqmeqjo" data-lity>
+            </div>
+
+            <div class="col-md-4 col-md-pull-6">
                 <p class="block-6__name">Дмитрий Левин</p>
                 <p class="block-6__position">
                     Преподаватель классической, <br>
@@ -409,9 +413,6 @@
                 <p class="block-6__info">  За это время Дмитрий обучил более 100 человек. Участник множества конкурсов, концертов и ведущий открытых мастер-классов.</p>
                 <p class="block-6__info">  В совершенстве владеет игрой гитаре, Является основателем и композитором группы Indonesia.</p>
 
-            </div>
-            <div class="col-md-6">
-                <img src="img/acustic/teacher_2.jpg" alt="" class="img-responsive" href="//www.youtube.com/watch?v=CDadtqmeqjo" data-lity>
             </div>
         </div>
     </div>
@@ -449,7 +450,10 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-4 col-md-push-8">
+                    <img src="img/acustic/review2.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="col-md-8 col-md-pull-4">
                     <p class="review-text">
                         Вот и закончился мой двухмесячный курс игры на гитаре, никогда не думала, что за 2 месяца можно не только освоить гитару,
                         но и прокачать себя в разных техниках игры на примере популярных песен.
@@ -472,9 +476,7 @@
                         Наталия Романова
                     </p>
                 </div>
-                <div class="col-md-4">
-                    <img src="img/acustic/review2.jpg" alt="" class="img-responsive">
-                </div>
+
 
             </div>
             <div class="row">
@@ -552,10 +554,6 @@
 <!--BLOCK-2 GALLERY-->
 
 
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-    Launch demo modal
-</button>
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
