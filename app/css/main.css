@@ -521,6 +521,8 @@ h2 {
     padding-left: 30px; }
     .footer .social li {
       margin-bottom: 15px; }
+      .footer .social li img {
+        width: 42px; }
 
 #myModal .modal-dialog {
   width: 941px; }
@@ -573,3 +575,19 @@ h2 {
     font-weight: 700;
     line-height: 24px;
     text-transform: uppercase; }
+
+.children .header {
+  background: url("../img/children/header-bg.jpg");
+  background-position-x: -180px; }
+
+.children .menu-icons__1 {
+  left: -10px; }
+
+.children .menu-icons__2 {
+  left: 5px; }
+
+.children .menu-icons__3 {
+  left: 10px; }
+
+.children #myModal .modal-content {
+  background: url("../img/children-bg-modal.jpg"); }

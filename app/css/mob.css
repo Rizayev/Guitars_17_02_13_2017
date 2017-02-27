@@ -28,13 +28,15 @@
     height: auto;
     padding-bottom: 50px;
     background-position-x: -150px; }
-  .top-header .logo {
-    display: block;
-    margin: 25px auto;
-    margin-bottom: 5px; }
+  .top-header {
+    padding-top: 20px; }
+    .top-header .logo {
+      float: left; }
   .top-header__phone {
     text-align: center;
-    margin-bottom: 25px; }
+    margin-bottom: 25px;
+    font-size: 18px;
+    color: #606060; }
   .header {
     margin-bottom: 100px; }
   .block-2__h2, .block-4__h2 {
@@ -80,12 +82,45 @@
       display: inline-block;
       margin-right: 10px; } }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-collapse.collapse {
+    display: none !important; }
+    .navbar-collapse.collapse.in {
+      display: block !important; }
+  .navbar-header .collapse, .navbar-toggle {
+    display: block !important; }
+  .navbar-header {
+    float: none; }
+  .top-header__phone {
+    float: left;
+    margin: 0;
+    margin-top: -15px;
+    margin-bottom: 15px; }
+  .top-header .navbar-toggle {
+    margin-top: 20px; }
+  .navbar-nav {
+    float: none;
+    margin-bottom: 40px; }
+    .navbar-nav > li {
+      float: none; }
+      .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px; } }
+
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .block-3__video .block-3__h2 {
     margin-bottom: 25px; }
   .top-header {
-    display: block; } }
+    display: block; }
+  .children .header {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 0; }
+  .phone-icon {
+    display: none; }
+  .block-2 {
+    padding-bottom: 200px; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 767px) {
@@ -120,7 +155,10 @@
       left: -17px;
       width: 15%; }
   .block-3__lessons > div:nth-child(3) .block-3__lessons__title:after, .block-3__lessons > div:last-child .block-3__lessons__title:after {
-    content: ' '; } }
+    content: ' '; }
+  .block-3__gallery img {
+    display: block;
+    margin: 0 auto; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 640px) {
@@ -143,7 +181,6 @@
     font-size: 22px;
     line-height: 24px; }
   .header-h2 {
-    text-align: center;
     font-size: 18px;
     line-height: 24px; }
   .header--form input {
@@ -174,7 +211,50 @@
   .footer p {
     font-size: 14px; }
   .block-2__feature img {
-    max-width: 100%; } }
+    max-width: 100%; }
+  .price .price-item {
+    width: 68%; }
+  .block-2 .col-xs-3 {
+    width: 100%; }
+  .block-2__feature__info__title {
+    text-align: center; }
+  .block-2__h2, .block-4__h2, .block-3__h2, .block-5__h2, .block-6__h2 {
+    font-size: 24px;
+    font-weight: 700; }
+  .block-3__lessons__title {
+    font-size: 22px; }
+  .block-3__video__title {
+    font-size: 17px;
+    line-height: 24px;
+    margin-bottom: 30px;
+    margin-top: 50px; }
+  .block-6__name, .block-6__position, .block-6__info {
+    text-align: left; }
+  .block-7 h2 {
+    font-size: 24px;
+    font-weight: 700; }
+  .footer .header--form .footer-btn {
+    text-align: center;
+    display: block;
+    margin: 0 auto; }
+  .reviews > div {
+    margin-bottom: 0; }
+  .navbar-toggle {
+    margin-right: -15px; }
+  .navbar-nav {
+    margin-bottom: 25px; }
+  .top-header__phone {
+    float: left;
+    margin-top: -15px; }
+    .top-header__phone a {
+      font-size: 18px;
+      color: #606060; }
+  .menu-icons a {
+    margin-right: 33px; } }
+
+@media only screen and (max-width: 425px) {
+  .price .price-item {
+    width: 98%; } }
 
 @media only screen and (max-width: 320px) {
   .block-2__feature p.info {
@@ -197,4 +277,35 @@
     font-size: 13px; }
   #myModal .modal-h4 {
     font-size: 22px;
-    line-height: 26px; } }
+    line-height: 26px; }
+  .header-h2 {
+    margin-bottom: 400px; }
+  .header {
+    background: url("../img/acustic/bg-320.jpg") no-repeat; }
+  .block-2 {
+    background: url("../img/acustic/bl2-bg-320.jpg") no-repeat;
+    background-position: 0 2650px;
+    padding-bottom: 250px; }
+  .block-7 {
+    margin-bottom: 50px; }
+  .footer h2 {
+    font-size: 24px;
+    line-height: 59px;
+    font-weight: 700;
+    text-align: center; }
+  .footer p {
+    color: #5b5c5a;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 10px; }
+  .footer .social {
+    border: none; }
+  .top-header__phone a {
+    font-size: 24px; }
+  .navbar-toggle {
+    margin-top: -15px; }
+  .children .header {
+    background: url("../img/children/bg-320.jpg") no-repeat; } }
