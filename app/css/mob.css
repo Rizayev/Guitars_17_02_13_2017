@@ -269,7 +269,8 @@
   .price-item__title {
     font-size: 26px; }
   .footer {
-    padding: 0; }
+    padding: 0;
+    background-position-x: -255px; }
   .review-text {
     font-size: 14px; }
   .block-3__gallery {
