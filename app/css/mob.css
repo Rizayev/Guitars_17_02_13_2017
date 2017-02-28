@@ -80,7 +80,9 @@
     margin-top: 50px; }
     .footer .social li {
       display: inline-block;
-      margin-right: 10px; } }
+      margin-right: 10px; }
+  .vocal .footer {
+    padding-bottom: 0; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .navbar-collapse.collapse {
@@ -308,4 +310,10 @@
   .navbar-toggle {
     margin-top: -15px; }
   .children .header {
-    background: url("../img/children/bg-320.jpg") no-repeat; } }
+    background: url("../img/children/bg-320.jpg") no-repeat; }
+  .vocal .header {
+    background: url("../img/vocal/bg-320.jpg") no-repeat; }
+  .vocal .header-h1 {
+    line-height: 20px; }
+  .vocal .header-h2 {
+    margin-bottom: 430px; } }

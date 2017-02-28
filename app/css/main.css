@@ -591,3 +591,60 @@ h2 {
 
 .children #myModal .modal-content {
   background: url("../img/children-bg-modal.jpg"); }
+
+.vocal #block-2-fimg2 {
+  top: -70px;
+  left: 100px; }
+
+.vocal .footer {
+  background: url("../img/vocal/footer-bg.jpg") no-repeat;
+  padding-bottom: 800px;
+  background-position-y: 300px; }
+
+.vocal .menu-icons__2 {
+  left: -12px; }
+
+.vocal .menu-icons__1 {
+  left: 4px; }
+
+.vocal #myModal .modal-content {
+  background: url("../img/vocal/vocal-bg-modal.jpg"); }
+
+.electro .header {
+  background: url("../img/electro/header-bg.jpg") no-repeat;
+  background-position: center center;
+  padding-bottom: 250px;
+  background-position-y: -100px; }
+
+.electro #myModal .modal-content {
+  background: url("../img/electro/electro-bg-modal.jpg"); }
+
+.electro .block-5 {
+  background: url("../img/electro/price-bg.jpg") no-repeat;
+  background-size: contain;
+  padding-bottom: 0; }
+
+.electro .block-6 {
+  background: url("../img/electro/Guitar_School_acustic_pic1.jpg") no-repeat;
+  background-size: cover;
+  padding-top: 480px;
+  background-position-y: 0px;
+  background-position-x: -100px; }
+
+.electro .teachers p {
+  margin-left: -10px; }
+
+.electro .review-text {
+  margin-top: 50px; }
+
+.electro .footer {
+  padding-bottom: 600px;
+  background: url("../img/electro/footer-bg.jpg") no-repeat; }
+
+.electro #block-2-fimg2 {
+  top: -32px; }
+
+.electro .block-2 {
+  background: url("../img/electro/bl2-bg.jpg") no-repeat;
+  background-size: contain;
+  background-position-y: 250px; }
