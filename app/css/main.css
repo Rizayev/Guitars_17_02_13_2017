@@ -578,7 +578,7 @@ h2 {
 
 .children .header {
   background: url("../img/children/header-bg.jpg");
-  background-position-x: -180px; }
+  background-size: cover; }
 
 .children .menu-icons__1 {
   left: -10px; }

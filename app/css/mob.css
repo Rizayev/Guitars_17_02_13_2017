@@ -122,7 +122,30 @@
   .phone-icon {
     display: none; }
   .block-2 {
-    padding-bottom: 200px; } }
+    padding-bottom: 200px; }
+  .block-3__gallery {
+    margin-bottom: 0; }
+  .block-3__video .col-sm-6 {
+    width: 100%; }
+    .block-3__video .col-sm-6 .block-3__video__title {
+      margin: 20px 0; }
+    .block-3__video .col-sm-6 img {
+      display: block;
+      margin: 0 auto; }
+  .block-6__name, .block-6__position, .block-6__info {
+    text-align: left; }
+  .acustic .header {
+    background-size: cover; }
+  .header-h1 {
+    font-size: 22px;
+    line-height: 28px; }
+  .header-h2 {
+    font-size: 16px;
+    line-height: 26px; }
+  .electro .block-2 {
+    background-position-y: 500px; }
+  .block-3__gallery .row > div:last-child {
+    margin-bottom: 0; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 767px) {
@@ -252,7 +275,10 @@
       font-size: 18px;
       color: #606060; }
   .menu-icons a {
-    margin-right: 33px; } }
+    margin-right: 33px; }
+  .electro .block-2 {
+    -ms-background-position-y: 750px;
+    background-position-y: 750px; } }
 
 @media only screen and (max-width: 425px) {
   .price .price-item {
