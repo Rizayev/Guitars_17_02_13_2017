@@ -394,6 +394,8 @@
   .price .price-item {
     height: auto;
     padding: 40px 0; }
+  .acustic .header-h2 {
+    margin-bottom: 460px; }
   .acustic .footer {
     background-position-x: -700px; }
   .acustic .block-3 {
@@ -412,6 +414,10 @@
     padding-bottom: 0; }
   .electro .footer {
     padding-bottom: 0; } }
+
+@media only screen and (max-width: 375px) {
+  .acustic .block-2 {
+    background-position-y: 2540px; } }
 
 @media only screen and (max-width: 320px) {
   .acustic .block-2 {
