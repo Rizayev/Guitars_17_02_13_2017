@@ -395,7 +395,7 @@
     height: auto;
     padding: 40px 0; }
   .acustic .header-h2 {
-    margin-bottom: 480px; }
+    margin-bottom: 470px; }
   .acustic .footer {
     background-position-x: -700px; }
   .acustic .block-3 {
@@ -424,4 +424,6 @@
     background-position: 0 2650px;
     background-position: bottom center; }
   .acustic .footer {
-    background-position-x: -800px; } }
+    background-position-x: -800px; }
+  .acustic .header-h2 {
+    margin-bottom: 460px; } }
