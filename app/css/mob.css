@@ -180,7 +180,9 @@
   .teachers {
     padding: 0; }
   .acustic .footer {
-    background-position-x: -360px; } }
+    background-position-x: -360px; }
+  .acustic .teachers img {
+    margin-top: 60px; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 767px) {
