@@ -413,6 +413,8 @@
   .price .price-item {
     height: auto;
     padding: 40px 0; }
+  .acustic .header {
+    background-position-y: 30px; }
   .acustic .header-h2 {
     margin-bottom: 495px; }
   .acustic .footer {
