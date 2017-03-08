@@ -182,7 +182,9 @@
   .acustic .footer {
     background-position-x: -360px; }
   .acustic .teachers img {
-    margin-top: 60px; } }
+    margin-top: 60px; }
+  .acustic .footer .header--form input {
+    width: 70%; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 767px) {
