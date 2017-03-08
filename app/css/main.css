@@ -454,6 +454,19 @@ h2 {
   .teachers img {
     cursor: pointer; }
 
+.block-7 {
+  margin-bottom: 50px; }
+
+.carousel {
+  display: none; }
+  .carousel .carousel-indicators {
+    bottom: -50px; }
+    .carousel .carousel-indicators li {
+      background: #fbb436; }
+    .carousel .carousel-indicators .active {
+      background: transparent;
+      border: 1px solid #fbb436; }
+
 .reviews > div {
   margin-bottom: 150px; }
 

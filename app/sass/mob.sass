@@ -1,4 +1,18 @@
 /* Large Devices, Wide Screens */
+@media only screen and (max-width : 1400px)
+  .header
+    background-position-x: 0px
+  .header-h1
+    font-size: 32px
+    line-height: 36px
+@media only screen and (max-width : 1199px)
+  .header-h1
+    font-size: 28px
+    line-height: 32px
+@media only screen and (max-width : 991px)
+  .header-h1
+    font-size: 22px
+    line-height: 32px
 @media only screen and (max-width : 1200px)
   .footer .header--form input
     width: 90%
@@ -140,8 +154,7 @@
     text-align: left
   .acustic
     .header
-      -webkit-background-size:
-      background-size: cover
+      min-height: auto
   .header-h1
     font-size: 22px
     line-height: 28px
@@ -150,10 +163,31 @@
     line-height: 26px
   .electro .block-2
     background-position-y: 500px
+  .block-3
+    -ms-background-position-x: -50px
+    background-position-x: -50px
   .block-3__gallery .row > div:last-child
     margin-bottom: 0
+  .block-3__lessons > div
+    margin-bottom: 80px
+  .block-3__lessons__title
+    font-size: 26px
+  .block-3__lessons__info
+    font-size: 14px
+    width: auto
+  .price .price-item
+    width: auto
+  .price-item__note
+    max-width: 100%
+  .teachers
+    padding: 0
+  .footer
+    background-position-x: -630px
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 767px)
+  .price .price-item
+    width: 416px
+
   .top-header .logo
     display: inline
     float: left
@@ -191,6 +225,15 @@
   .block-3__gallery img
     display: block
     margin: 0 auto
+  .block-6__name, .block-6__position, .block-6__info
+    text-align: center
+  .block-5
+    background: none
+
+  .carousel
+    display: block
+  .reviews__all,.all_video
+    display: none
 /* Custom, iPhone Retina */ 
 @media only screen and (max-width : 640px)
   .price-item__note
@@ -343,8 +386,16 @@
       font-size: 24px
   .navbar-toggle
     margin-top: -15px
-
-
+  .price-item__note
+    padding: 0
+  .price .price-item
+    height: auto
+    padding: 40px 0
+  .acustic
+    .footer
+      background-position-x: -1000px
+    .block-3
+      padding-bottom: 100px
   .children
     .header
       background: url("../img/children/bg-320.jpg") no-repeat
