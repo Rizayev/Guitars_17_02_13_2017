@@ -329,7 +329,11 @@
   .price .price-item {
     width: 98%; } }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 425px) {
+  .menu-icons {
+    width: 285px;
+    margin: 0 auto;
+    margin-bottom: 80px; }
   .block-2__feature p.info {
     font-size: 14px;
     line-height: 16px; }
@@ -355,10 +359,11 @@
   .header-h2 {
     margin-bottom: 400px; }
   .header {
-    background: url("../img/acustic/bg-320.jpg") no-repeat; }
+    background: url("../img/acustic/bg-320.jpg") no-repeat;
+    background-position: top center; }
   .block-2 {
     background: url("../img/acustic/bl2-bg-320.jpg") no-repeat;
-    background-position: 0 2650px;
+    background-position: 0 2440px;
     padding-bottom: 250px; }
   .block-7 {
     margin-bottom: 50px; }
@@ -387,7 +392,7 @@
     height: auto;
     padding: 40px 0; }
   .acustic .footer {
-    background-position-x: -1000px; }
+    background-position-x: -700px; }
   .acustic .block-3 {
     padding-bottom: 100px; }
   .children .header {
@@ -404,3 +409,10 @@
     padding-bottom: 0; }
   .electro .footer {
     padding-bottom: 0; } }
+
+@media only screen and (max-width: 320px) {
+  .acustic .block-2 {
+    background-position: 0 2650px;
+    background-position: bottom center; }
+  .acustic .footer {
+    background-position-x: -800px; } }
