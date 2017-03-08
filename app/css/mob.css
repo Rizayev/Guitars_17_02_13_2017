@@ -349,6 +349,15 @@
   .footer {
     padding: 0;
     background-position-x: -255px; }
+    .footer .social {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
   .review-text {
     font-size: 14px; }
   .block-3__gallery {
