@@ -10,7 +10,9 @@
   .acustic .menu-icons {
     margin-bottom: 100px; }
   .acustic .teachers img {
-    margin-top: 50px; } }
+    margin-top: 50px; }
+  .acustic .footer {
+    background-position-x: -100px; } }
 
 @media only screen and (max-width: 1199px) {
   .header-h1 {
