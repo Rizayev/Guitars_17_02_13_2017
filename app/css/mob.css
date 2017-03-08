@@ -8,7 +8,9 @@
 
 @media only screen and (max-width: 1024px) {
   .acustic .menu-icons {
-    margin-bottom: 100px; } }
+    margin-bottom: 100px; }
+  .acustic .teachers img {
+    margin-top: 40px; } }
 
 @media only screen and (max-width: 1199px) {
   .header-h1 {
