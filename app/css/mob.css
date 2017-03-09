@@ -207,6 +207,8 @@
   .acustic .footer {
     background-position-x: -220px;
     min-height: auto; }
+    .acustic .footer .social {
+      border: none; }
   .acustic .teachers img {
     margin-top: 80px; }
   .acustic .footer .header--form input {
