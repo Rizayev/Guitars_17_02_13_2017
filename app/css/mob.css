@@ -196,8 +196,7 @@
   .teachers {
     padding: 0; }
   .acustic .header {
-    background: url("../img/acustic/header-bg_tablet.jpg");
-    background-position-x: -110px; }
+    background: url("../img/acustic/header-bg_tablet.jpg"); }
   .acustic .footer {
     background-position-x: -490px; }
   .acustic .teachers img {
