@@ -451,7 +451,8 @@
   .acustic #block-2-fimg1 {
     opacity: 0.5; }
   .acustic .block-2__feature p.info {
-    font-size: 22px; }
+    font-size: 22px;
+    line-height: 26px; }
   .children .header {
     background: url("../img/children/bg-320.jpg") no-repeat; }
   .vocal .header {
