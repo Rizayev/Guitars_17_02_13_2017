@@ -217,6 +217,8 @@
     max-width: 90%; }
   .acustic #block-2-fimg4 {
     top: -13px; }
+  .acustic .block-2__feature___item ul li {
+    font-size: 16px; }
   .electro .footer {
     background-position-x: 0; }
   .electro .header--form input {
@@ -471,6 +473,11 @@
     margin-bottom: 50px; }
   .acustic .header--form input {
     width: 90%; }
+  .acustic .block-2__feature___item img {
+    left: 15px;
+    max-width: 100%; }
+  .acustic #block-2-fimg4 {
+    top: -18px; }
   .children .header {
     background: url("../img/children/bg-320.jpg") no-repeat; }
   .vocal .header {
