@@ -210,6 +210,8 @@
     margin-top: 80px; }
   .acustic .footer .header--form input {
     width: 50%; }
+  .acustic .block-2__feature p.info {
+    line-height: 24px; }
   .electro .footer {
     background-position-x: 0; }
   .electro .header--form input {
