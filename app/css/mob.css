@@ -213,11 +213,10 @@
   .acustic .block-2__feature p.info {
     line-height: 24px; }
   .acustic .block-2__feature___item img {
-    left: 418px; }
-  .acustic #block-2-fimg3 {
-    left: 360px; }
+    left: 15px;
+    max-width: 90%; }
   .acustic #block-2-fimg4 {
-    left: 345px; }
+    top: -13px; }
   .electro .footer {
     background-position-x: 0; }
   .electro .header--form input {
