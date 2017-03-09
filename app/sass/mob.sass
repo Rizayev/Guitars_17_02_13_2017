@@ -16,6 +16,12 @@
       margin-top: 50px
     .footer
       background-position-x: -70px
+  .electro
+    .block-2
+      -ms-background-position-y: 450px
+      background-position-y: 450px
+    .footer
+      background-position-x: -420px
 @media only screen and (max-width : 1199px)
   .header-h1
     font-size: 28px
@@ -51,7 +57,7 @@
       margin: 0 auto
       margin-top: 50px
     .modal-content
-      background: url("../img/modal-bg-rep.jpg")
+      background: url("../img/modal-bg-rep.jpg") !important
       height: auto
       padding-bottom: 50px
       background-position-x: -150px
@@ -195,19 +201,24 @@
   .acustic
     .header
       background: url("../img/acustic/header-bg_tablet.jpg")
-      -ms-background-position-x:
       background-position-x: -110px
     .footer
-      background-position-x: -360px
+      background-position-x: -490px
     .teachers img
       margin-top: 80px
     .footer .header--form input
       width: 50%
+  .electro
+    .footer
+      background-position-x: 0
+    .header--form input
+      width: 45%
+    .footer .header--form .footer-btn
+      margin: 0
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 767px)
   .price .price-item
     width: 416px
-
   .top-header .logo
     display: inline
     float: left
@@ -387,12 +398,6 @@
     line-height: 26px
   .header-h2
     margin-bottom: 400px
-  .header
-    background: url("../img/acustic/bg-320.jpg") no-repeat
-    background-position: top center
-  .block-2
-    background: url("../img/acustic/bl2-bg-320.jpg") no-repeat
-    background-position: 0 2440px
     padding-bottom: 250px
   .block-7
     margin-bottom: 50px
@@ -423,18 +428,31 @@
     padding: 40px 0
   .acustic
     .header
-      background-position-y: 30px
+      background: url("../img/acustic/bg-320.jpg") no-repeat
+      background-position: top center
+    .block-2
+      background: url("../img/acustic/bl2-bg-320.jpg") no-repeat
+      background-position: 0 2440px
+    .menu-icons
+      margin-bottom: 70px
     .header-h2
-      margin-bottom: 495px
+      margin-bottom: 0px
+      padding-bottom: 0
+    .teachers img
+      margin-top: 0
     .footer
       background-position-x: -700px
       .social
         padding-left: 0
     .block-3
       padding-bottom: 100px
+
+
   .children
     .header
       background: url("../img/children/bg-320.jpg") no-repeat
+
+
   .vocal
     .header
       background: url("../img/vocal/bg-320.jpg") no-repeat
@@ -442,6 +460,8 @@
       line-height: 20px
     .header-h2
       margin-bottom: 430px
+
+
   .electro
     .header
       background: url("../img/electro/bg-320.jpg") no-repeat
