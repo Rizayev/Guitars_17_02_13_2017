@@ -429,7 +429,8 @@
     background-position: top center; }
   .acustic .block-2 {
     background: url("../img/acustic/bl2-bg-320.jpg") no-repeat;
-    background-position: 0 2440px; }
+    background-position: 0 2440px;
+    padding-bottom: 210px; }
   .acustic .menu-icons {
     margin-bottom: 70px; }
   .acustic .header-h2 {
