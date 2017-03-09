@@ -196,7 +196,10 @@
   .teachers {
     padding: 0; }
   .acustic .header {
-    background: url("../img/acustic/header-bg_tablet.jpg"); }
+    background: url("../img/acustic/header-bg_tablet.jpg") no-repeat; }
+  .acustic .header-h1 {
+    font-size: 28px;
+    line-height: 38px; }
   .acustic .footer {
     background-position-x: -490px; }
   .acustic .teachers img {
