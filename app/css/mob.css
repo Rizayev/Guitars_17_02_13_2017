@@ -436,8 +436,6 @@
   .acustic .header-h2 {
     margin-bottom: 0px;
     padding-bottom: 0; }
-  .acustic .block-2__feature___item img {
-    left: 0; }
   .acustic .teachers img {
     margin-top: 0; }
   .acustic .footer {
@@ -473,4 +471,6 @@
   .acustic .footer {
     background-position-x: -800px; }
   .acustic .header-h2 {
-    margin-bottom: 425px; } }
+    margin-bottom: 425px; }
+  .acustic .block-2__feature___item img {
+    left: 0; } }
