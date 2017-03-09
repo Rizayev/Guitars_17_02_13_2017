@@ -7,6 +7,9 @@
     line-height: 36px; } }
 
 @media only screen and (max-width: 1024px) {
+  .acustic .header {
+    min-height: auto;
+    margin-bottom: 100px; }
   .acustic .menu-icons {
     margin-bottom: 100px; }
   .acustic .teachers img {
@@ -187,6 +190,9 @@
     max-width: 100%; }
   .teachers {
     padding: 0; }
+  .acustic .header {
+    background: url("../img/acustic/header-bg_tablet.jpg");
+    background-position-x: -110px; }
   .acustic .footer {
     background-position-x: -360px; }
   .acustic .teachers img {
