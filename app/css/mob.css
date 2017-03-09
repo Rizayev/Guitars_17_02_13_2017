@@ -202,6 +202,8 @@
     line-height: 38px; }
   .acustic .header-h2 {
     font-size: 18px; }
+  .acustic .header--form input {
+    width: 30%; }
   .acustic .footer {
     background-position-x: -490px; }
   .acustic .teachers img {
@@ -460,6 +462,8 @@
     font-weight: 600; }
   .acustic #carousel-example-generic3 {
     margin-bottom: 50px; }
+  .acustic .header--form input {
+    width: 90%; }
   .children .header {
     background: url("../img/children/bg-320.jpg") no-repeat; }
   .vocal .header {
