@@ -409,7 +409,22 @@
     margin: 0 auto;
     margin-bottom: 90px; }
   .acustic .carousel-inner > .item > a > img, .acustic .carousel-inner > .item > img {
-    margin: 0 auto; } }
+    margin: 0 auto; }
+  .acustic .header--form {
+    width: 80%;
+    margin: 0 auto; }
+    .acustic .header--form input {
+      width: 100%; }
+  .acustic .block-2__feature___item img {
+    left: 100px; }
+  .acustic #block-2-fimg1 {
+    left: 130px; }
+  .acustic #block-2-fimg2 {
+    top: -37px; }
+  .acustic #block-2-fimg3 {
+    top: 2px; }
+  .acustic #block-2-fimg4 {
+    top: -19px; } }
 
 @media only screen and (max-width: 425px) {
   .price .price-item {
