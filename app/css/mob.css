@@ -396,6 +396,21 @@
     -ms-background-position-y: 750px;
     background-position-y: 750px; } }
 
+@media only screen and (max-width: 570px) {
+  .acustic .header {
+    background: url("../img/acustic/bg-570.jpg") no-repeat; }
+  .acustic .header-h1 {
+    text-align: center; }
+  .acustic .header-h2 {
+    margin-bottom: 490px;
+    text-align: center; }
+  .acustic .menu-icons {
+    width: 285px;
+    margin: 0 auto;
+    margin-bottom: 90px; }
+  .acustic .carousel-inner > .item > a > img, .acustic .carousel-inner > .item > img {
+    margin: 0 auto; } }
+
 @media only screen and (max-width: 425px) {
   .price .price-item {
     width: 98%; }
