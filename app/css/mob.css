@@ -453,8 +453,7 @@
     padding: 40px 0; }
   .acustic .header {
     background: url("../img/acustic/bg-320.jpg") no-repeat;
-    background-position: top center;
-    background-position-y: 70px; }
+    background-position: top center; }
   .acustic .block-2 {
     background: url("../img/acustic/bl2-bg-320.jpg") no-repeat;
     background-position: 0 2440px;
@@ -499,6 +498,9 @@
     max-width: 100%; }
   .acustic #block-2-fimg4 {
     top: -18px; }
+  .acustic .header-h1 {
+    font-size: 22px;
+    line-height: 24px; }
   .children .header {
     background: url("../img/children/bg-320.jpg") no-repeat; }
   .vocal .header {
@@ -532,4 +534,6 @@
   .acustic .block-2__feature___item img {
     left: 0; }
   .acustic .block-3 {
-    background-position-y: 1310px; } }
+    background-position-y: 1310px; }
+  .acustic #block-2-fimg4 {
+    top: -10px; } }
