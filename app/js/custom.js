@@ -64,4 +64,8 @@ $('.block-3__gallery img').click(function () {
         }, 500);
         return false;
     });
+
+    $('#carousel-example-generic').carousel({
+        interval: 1000 * 10
+    });
 });
