@@ -396,7 +396,7 @@
     -ms-background-position-y: 750px;
     background-position-y: 750px; } }
 
-@media only screen and (max-width: 570px) {
+@media only screen and (max-width: 667px) {
   .acustic .header {
     background: url("../img/acustic/bg-570.jpg") no-repeat; }
   .acustic .header-h1 {
