@@ -415,7 +415,9 @@
     font-size: 16px;
     line-height: 22px; }
   .acustic .carousel-inner > .item > a > img, .acustic .carousel-inner > .item > img {
-    margin: 0 auto; } }
+    margin: 0 auto; }
+  .acustic .block-6__info {
+    font-size: 16px; } }
 
 @media only screen and (max-width: 736px) {
   .acustic .header {
