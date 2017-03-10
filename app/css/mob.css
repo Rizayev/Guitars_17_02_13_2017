@@ -222,9 +222,6 @@
     top: -13px; }
   .acustic .block-2__feature___item ul li {
     font-size: 16px; }
-  .acustic .block-2__feature___item hr {
-    width: 70%;
-    margin-left: 0; }
   .electro .footer {
     background-position-x: 0; }
   .electro .header--form input {
@@ -443,7 +440,8 @@
     padding: 40px 0; }
   .acustic .header {
     background: url("../img/acustic/bg-320.jpg") no-repeat;
-    background-position: top center; }
+    background-position: top center;
+    background-position-y: 70px; }
   .acustic .block-2 {
     background: url("../img/acustic/bl2-bg-320.jpg") no-repeat;
     background-position: 0 2440px;
