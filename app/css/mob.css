@@ -431,6 +431,7 @@
 @media only screen and (max-width: 677px) {
   .acustic .header {
     background: url("../img/acustic/Guitar_plays_acustic_677.jpg") no-repeat;
+    background-position: center center;
     background-position-y: -170px; }
   .acustic .header-h1 {
     text-align: center; }
