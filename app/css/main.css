@@ -227,6 +227,7 @@ h2 {
 
 .block-3 {
   background: url("../img/acustic/Guitar_School_electro_pic3_2.jpg") no-repeat;
+  background-size: contain;
   background-position: bottom center;
   margin-bottom: 130px; }
 
