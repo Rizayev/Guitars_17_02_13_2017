@@ -593,7 +593,8 @@ h2 {
     text-transform: uppercase; }
 
 .children .header {
-  background: url("../img/children/header-bg.jpg"); }
+  background: url("../img/children/header-bg.jpg");
+  background-size: contain; }
 
 .children .menu-icons__1 {
   left: -10px; }
