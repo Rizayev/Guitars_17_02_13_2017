@@ -9,6 +9,9 @@
 @media only screen and (max-width: 1440px) {
   .acustic .block-2 {
     padding-bottom: 400px; }
+  .acustic .block-3 {
+    background: url("../img/acustic/bg3-1440.jpg") no-repeat;
+    background-position: center center; }
   .acustic .block-5 {
     background-position-y: -90px; }
   .acustic .block-6 {
