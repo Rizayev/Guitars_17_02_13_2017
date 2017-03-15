@@ -616,6 +616,9 @@
     padding-bottom: 0; } }
 
 @media only screen and (max-width: 375px) {
+  .acustic .header {
+    background: url("../img/acustic/bg-320.jpg") no-repeat;
+    background-position: top center; }
   .acustic .block-2 {
     background-position-y: 2679px; }
   .acustic .header-h2 {
