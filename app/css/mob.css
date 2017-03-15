@@ -188,6 +188,8 @@
     .block-3__video .col-sm-6 img {
       display: block;
       margin: 0 auto; }
+  .block-5 .price .price-item {
+    width: 416px; }
   .block-6__name, .block-6__position, .block-6__info {
     text-align: left; }
   .acustic .header {
