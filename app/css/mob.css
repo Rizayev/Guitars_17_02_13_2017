@@ -21,6 +21,9 @@
   .acustic .header {
     min-height: auto;
     margin-bottom: 100px; }
+  .acustic .block-3 {
+    background: url("../img/acustic/bg3-1024.jpg") no-repeat;
+    background-position: bottom center; }
   .acustic .menu-icons {
     margin-bottom: 100px; }
   .acustic .block-2 {
