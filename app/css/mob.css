@@ -617,6 +617,8 @@
     line-height: 24px; }
   .acustic .block-3__video__title {
     font-size: 24px; }
+  .acustic #carousel-example-generic3 .item img {
+    height: 423px; }
   .children .header {
     background: url("../img/children/bg-320.jpg") no-repeat; }
   .vocal .header {
@@ -647,7 +649,9 @@
   .acustic .block-3 {
     background-position-y: 879px; }
   .acustic .block-3__video__title {
-    font-size: 22px; } }
+    font-size: 22px; }
+  .acustic #carousel-example-generic3 .item img {
+    height: 375px; } }
 
 @media only screen and (max-width: 320px) {
   .acustic .block-2 {
@@ -663,4 +667,6 @@
   .acustic #block-2-fimg4 {
     top: -10px; }
   .acustic .block-3__video__title {
-    font-size: 19px; } }
+    font-size: 19px; }
+  .acustic #carousel-example-generic3 .item img {
+    height: 314px; } }
