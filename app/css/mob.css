@@ -572,6 +572,8 @@
     background-position-y: 1300px; }
   .acustic .block-3__lessons__info {
     font-size: 16px; }
+  .acustic .block-5 .price .price-item {
+    width: 100%; }
   .acustic #block-2-fimg1 {
     opacity: 0.5;
     left: 50px; }
