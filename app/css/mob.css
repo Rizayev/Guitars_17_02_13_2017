@@ -23,7 +23,9 @@
     margin-bottom: 100px; }
   .acustic .block-3 {
     background: url("../img/acustic/bg3-1024.jpg") no-repeat;
-    background-position: bottom center; }
+    background-position: bottom center;
+    -ms-background-position-x: -60px;
+    background-position-x: -60px; }
   .acustic .menu-icons {
     margin-bottom: 100px; }
   .acustic .block-2 {
