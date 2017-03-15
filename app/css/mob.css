@@ -109,6 +109,8 @@
   .block-5 {
     padding-bottom: 100px;
     background-position: center center; }
+    .block-5 .price .price-item {
+      width: 100%; }
   .block-6 {
     margin: 0;
     padding: 0; }
