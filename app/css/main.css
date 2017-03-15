@@ -608,6 +608,10 @@ h2 {
 .children #myModal .modal-content {
   background: url("../img/children-bg-modal.jpg"); }
 
+.vocal .header {
+  background: url("../img/vocal/header-bg.jpg") no-repeat;
+  background-size: contain; }
+
 .vocal #block-2-fimg2 {
   top: -70px;
   left: 100px; }
@@ -628,9 +632,7 @@ h2 {
 
 .electro .header {
   background: url("../img/electro/header-bg.jpg") no-repeat;
-  background-position: center center;
-  padding-bottom: 250px;
-  background-position-y: -100px; }
+  background-size: contain; }
 
 .electro #myModal .modal-content {
   background: url("../img/electro/electro-bg-modal.jpg"); }
