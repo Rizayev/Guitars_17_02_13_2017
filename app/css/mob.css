@@ -548,8 +548,9 @@
     height: auto;
     padding: 40px 0; }
   .acustic .header {
-    background: url("../img/acustic/bg-320.jpg") no-repeat;
-    background-position: top center; }
+    background: url("../img/acustic/Guitar_plays_acustic_425.jpg") no-repeat;
+    background-position: top center;
+    background-position-y: -220px; }
   .acustic .block-2 {
     background: url("../img/acustic/bl2-bg-320.jpg") no-repeat;
     background-position: 0 2620px;
