@@ -489,7 +489,7 @@
     margin-bottom: 50px; }
   .acustic .footer {
     background: url("../img/acustic/Guitar_plays_acustic_677_2.jpg") no-repeat;
-    background-position: center center; } }
+    background-position: bottom center; } }
 
 @media only screen and (max-width: 425px) {
   .price .price-item {
@@ -511,8 +511,7 @@
   .price-item__title {
     font-size: 26px; }
   .footer {
-    padding: 0;
-    background-position-x: -255px; }
+    padding: 0; }
     .footer .social {
       display: -webkit-box;
       display: -webkit-flex;
@@ -576,10 +575,8 @@
     padding-bottom: 0; }
   .acustic .teachers img {
     margin-top: 0; }
-  .acustic .footer {
-    background-position-x: -550px; }
-    .acustic .footer .social {
-      padding-left: 0; }
+  .acustic .footer .social {
+    padding-left: 0; }
   .acustic .block-3 {
     padding-bottom: 100px;
     background-position-y: 917px; }
@@ -644,8 +641,6 @@
     margin-bottom: 470px; }
   .acustic #block-2-fimg4, .acustic #block-2-fimg3 {
     left: 0; }
-  .acustic .footer {
-    background-position-x: -580px; }
   .acustic .block-3 {
     background-position-y: 879px; }
   .acustic .block-3__video__title {
@@ -656,8 +651,6 @@
 @media only screen and (max-width: 320px) {
   .acustic .block-2 {
     background-position: bottom center; }
-  .acustic .footer {
-    background-position-x: -650px; }
   .acustic .header-h2 {
     margin-bottom: 425px; }
   .acustic .block-2__feature___item img {
