@@ -444,10 +444,6 @@
   .acustic .header {
     background: url("../img/acustic/header-bg_tablet736.jpg") no-repeat; } }
 
-@media only screen and (max-width: 678px) {
-  .acustic .header {
-    background: url("../img/acustic/123123.jpg") no-repeat; } }
-
 @media only screen and (max-width: 677px) {
   .acustic .header {
     background: url("../img/acustic/Guitar_plays_acustic_677.jpg") no-repeat;
