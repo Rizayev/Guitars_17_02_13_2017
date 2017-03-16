@@ -485,7 +485,7 @@
     background: url("../img/acustic/Guitar_plays_acustic_677_2.jpg") no-repeat;
     background-position: bottom center; }
   .children .header {
-    background: url("../img/children/Guitar_plays_children_677.jpg");
+    background: url("../img/children/Guitar_plays_children_677.jpg") no-repeat;
     background-position-y: -160px; } }
 
 @media only screen and (max-width: 450px) {
