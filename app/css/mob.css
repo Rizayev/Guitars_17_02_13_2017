@@ -268,6 +268,8 @@
     top: 1px; }
   .acustic .block-2__feature___item ul li {
     font-size: 16px; }
+  .children .header {
+    background: url("../img/children/768_child.jpg") no-repeat; }
   .electro .footer {
     background-position-x: 0; }
   .electro .header--form input {
@@ -321,7 +323,31 @@
   .carousel {
     display: block; }
   .reviews__all, .all_video {
-    display: none; } }
+    display: none; }
+  .acustic .header {
+    background: url("../img/acustic/acustic_767_.jpg") no-repeat; }
+  .acustic .block-2__feature___item img {
+    left: 25%; }
+  .acustic #block-2-fimg1 {
+    left: 30%;
+    top: -34px; }
+  .acustic #block-2-fimg2 {
+    left: 30%;
+    top: -34px; }
+  .acustic #block-2-fimg3 {
+    top: 0px; }
+  .acustic #block-2-fimg4 {
+    top: -20px; }
+  .acustic .block-3__lessons__title {
+    font-size: 28px; }
+  .acustic .block-3__lessons__info {
+    font-size: 16px;
+    line-height: 22px; }
+  .acustic .carousel-inner > .item > a > img, .acustic .carousel-inner > .item > img {
+    margin: 0 auto; }
+  .acustic .block-6__info {
+    font-size: 16px;
+    line-height: 22px; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 640px) {
@@ -413,32 +439,6 @@
   .electro .block-2 {
     -ms-background-position-y: 750px;
     background-position-y: 750px; } }
-
-@media only screen and (max-width: 767px) {
-  .acustic .header {
-    background: url("../img/acustic/acustic_767_.jpg") no-repeat; }
-  .acustic .block-2__feature___item img {
-    left: 25%; }
-  .acustic #block-2-fimg1 {
-    left: 30%;
-    top: -34px; }
-  .acustic #block-2-fimg2 {
-    left: 30%;
-    top: -34px; }
-  .acustic #block-2-fimg3 {
-    top: 0px; }
-  .acustic #block-2-fimg4 {
-    top: -20px; }
-  .acustic .block-3__lessons__title {
-    font-size: 28px; }
-  .acustic .block-3__lessons__info {
-    font-size: 16px;
-    line-height: 22px; }
-  .acustic .carousel-inner > .item > a > img, .acustic .carousel-inner > .item > img {
-    margin: 0 auto; }
-  .acustic .block-6__info {
-    font-size: 16px;
-    line-height: 22px; } }
 
 @media only screen and (max-width: 677px) {
   .acustic .header {
@@ -629,7 +629,9 @@
   .acustic #carousel-example-generic3 .item img {
     height: 423px; }
   .children .header {
-    background: url("../img/children/bg-320.jpg") no-repeat; }
+    background: url("../img/children/child_425.jpg") no-repeat;
+    background-position: center center;
+    background-position-y: -240px; }
   .vocal .header {
     background: url("../img/vocal/bg-320.jpg") no-repeat; }
   .vocal .header-h1 {
