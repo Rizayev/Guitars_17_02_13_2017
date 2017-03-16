@@ -347,7 +347,9 @@
     margin: 0 auto; }
   .acustic .block-6__info {
     font-size: 16px;
-    line-height: 22px; } }
+    line-height: 22px; }
+  .children .header {
+    background: url("../img/children/767_children.jpg") no-repeat; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 640px) {
