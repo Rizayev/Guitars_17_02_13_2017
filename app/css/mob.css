@@ -687,7 +687,7 @@
   .electro .header {
     background: url("../img/electro/electro_425-1.jpg") no-repeat;
     background-position: center center;
-    background-position-y: -200px; } }
+    background-position-y: -180px; } }
 
 @media only screen and (max-width: 320px) {
   .acustic .block-2 {
