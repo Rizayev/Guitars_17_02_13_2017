@@ -632,6 +632,7 @@ h2 {
 
 .electro .header {
   background: url("../img/electro/header-bg.jpg") no-repeat;
+  background-position: center center;
   background-size: contain; }
 
 .electro #myModal .modal-content {
