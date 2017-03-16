@@ -274,7 +274,16 @@
     background: url("../img/electro/768_electro1.jpg") no-repeat; }
   .electro .block-2 {
     background: url("../img/electro/768_electro2.jpg") no-repeat;
-    background-position-y: 1000px; } }
+    background-position-y: 1000px; }
+  .electro .block-5 {
+    background: url("../img/electro/768_electro3.jpg") no-repeat;
+    margin-bottom: 20px; }
+  .electro .block-6 {
+    padding: 0; }
+  .electro .footer {
+    padding-bottom: 600px;
+    background: url("../img/electro/768_electro4.jpg") no-repeat;
+    background-position-y: 600px; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 767px) {
