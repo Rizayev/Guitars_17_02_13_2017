@@ -470,10 +470,10 @@ h2 {
       background: transparent;
       border: 1px solid #fbb436; }
 
-.reviews > div {
+.reviews__all > div {
   margin-bottom: 150px; }
 
-.reviews button {
+.reviews__all button {
   width: 217px;
   height: 53px; }
 
