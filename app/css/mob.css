@@ -727,4 +727,6 @@
   .electro .block-2 {
     background: url("../img/electro/bl2-bg.jpg") no-repeat;
     background-size: contain;
-    background-position-y: 850px; } }
+    background-position-y: 850px; }
+  .electro .footer {
+    background-position-x: 0; } }
