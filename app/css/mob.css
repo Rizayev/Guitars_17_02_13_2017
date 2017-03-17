@@ -667,8 +667,9 @@
 
 @media only screen and (max-width: 375px) {
   .acustic .header {
-    background: url("../img/acustic/bg-320.jpg") no-repeat;
-    background-position: top center; }
+    background: url("../img/acustic/Guitar_plays_acustic2_425.jpg") no-repeat;
+    background-position: top center;
+    background-position-y: -180px; }
   .acustic .block-2 {
     background-position-y: 2679px; }
   .acustic .header-h2 {
