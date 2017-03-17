@@ -662,7 +662,11 @@
   .electro .footer {
     background: url("../img/electro/footer_425.jpg") no-repeat;
     background-position-y: 600px;
-    padding-bottom: 340px; } }
+    padding-bottom: 340px; }
+  .electro .block-2 {
+    background: url("../img/electro/bl2-bg.jpg") no-repeat;
+    background-size: contain;
+    background-position-y: 700px; } }
 
 @media only screen and (max-width: 375px) {
   .acustic .header {
