@@ -691,7 +691,11 @@
   .electro .header {
     background: url("../img/electro/electro_425-1.jpg") no-repeat;
     background-position: center center;
-    background-position-y: -180px; } }
+    background-position-y: -180px; }
+  .electro .block-2 {
+    background: url("../img/electro/bl2-bg.jpg") no-repeat;
+    background-size: contain;
+    background-position-y: 750px; } }
 
 @media only screen and (max-width: 320px) {
   .acustic .header {
@@ -719,4 +723,8 @@
   .electro .header {
     background: url("../img/electro/electro_425-1.jpg") no-repeat;
     background-position: center center;
-    background-position-y: -140px; } }
+    background-position-y: -140px; }
+  .electro .block-2 {
+    background: url("../img/electro/bl2-bg.jpg") no-repeat;
+    background-size: contain;
+    background-position-y: 850px; } }
