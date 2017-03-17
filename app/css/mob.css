@@ -691,6 +691,8 @@
     background-position-y: -180px; } }
 
 @media only screen and (max-width: 320px) {
+  .acustic .header {
+    background-position-y: -140px; }
   .acustic .block-2 {
     background-position: bottom center; }
   .acustic .footer {
