@@ -141,7 +141,7 @@
     margin-bottom: 50px; }
   .review-author {
     text-align: center; }
-  .reviews > div {
+  .reviews__all > div {
     margin-bottom: 50px; }
   .reviews button {
     display: block;
@@ -434,7 +434,7 @@
   .block-7 h2 {
     font-size: 24px;
     font-weight: 700; }
-  .reviews > div {
+  .reviews__all > div {
     margin-bottom: 0; }
   .navbar-toggle {
     margin-right: -15px; }
