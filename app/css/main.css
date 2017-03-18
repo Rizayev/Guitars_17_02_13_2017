@@ -633,7 +633,10 @@ h2 {
 
 .vocal .block-2 {
   background: url("../img/vocal/pc.jpg") no-repeat;
-  background-position-y: 200px; }
+  background-size: contain;
+  background-position-y: 400px;
+  padding-bottom: 1338px;
+  margin-bottom: -200px; }
 
 .electro .header {
   background: url("../img/electro/header-bg.jpg") no-repeat;
