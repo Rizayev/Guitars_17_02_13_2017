@@ -671,6 +671,9 @@ h2 {
   background-size: contain;
   background-position-y: 340px; }
 
+.electro .block-2__feature___item:first-child {
+  margin-bottom: 100px; }
+
 .electro .block-5 {
   margin-top: -150px;
   padding-top: 150px; }
