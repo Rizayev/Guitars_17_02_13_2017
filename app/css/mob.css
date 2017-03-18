@@ -545,6 +545,7 @@
     background-position-y: 700px; }
   .vocal .header {
     background: url("../img/vocal/Guitar_plays_vocal_677.jpg") no-repeat;
+    background-position: center center;
     background-position-y: -140px; }
   .vocal .header-h2 {
     margin-bottom: 600px; } }
