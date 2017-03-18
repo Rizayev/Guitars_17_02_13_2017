@@ -667,11 +667,8 @@ h2 {
   margin-top: 50px; }
 
 .electro .footer {
-  background: url("../img/electro/Guitar_School_electro_pic5.jpg") no-repeat;
-  padding-left: 0;
-  padding-bottom: 100px !important;
-  background-position-x: 0 !important;
-  min-height: auto; }
+  padding-bottom: 0px !important;
+  background: none !important; }
   .electro .footer form {
     margin-bottom: 100px; }
 
