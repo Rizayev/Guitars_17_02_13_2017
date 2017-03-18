@@ -671,7 +671,8 @@ h2 {
   background: url("../img/electro/Guitar_School_electro_pic2.jpg") no-repeat;
   background-size: contain;
   background-position: center center;
-  background-position-y: 340px; }
+  background-position-y: 500px;
+  padding-bottom: 600px; }
 
 .electro .block-2__feature___item:first-child {
   margin-bottom: 100px; }

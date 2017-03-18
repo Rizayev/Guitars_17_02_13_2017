@@ -17,7 +17,7 @@
   .acustic .block-6 {
     background-position-x: -150px; }
   .electro .block-2 {
-    background-position-y: 350px; } }
+    padding-bottom: 500px; } }
 
 @media only screen and (max-width: 1024px) {
   .acustic .header {
@@ -53,7 +53,7 @@
   .electro .footer {
     background-position-x: -420px; }
   .electro .block-2 {
-    background-position-y: 500px; } }
+    background-position-y: 600px; } }
 
 @media only screen and (max-width: 1199px) {
   .header-h1 {
@@ -218,8 +218,6 @@
   .header-h2 {
     font-size: 16px;
     line-height: 26px; }
-  .electro .block-2 {
-    background-position-y: 500px; }
   .block-3 {
     -ms-background-position-x: -50px;
     background-position-x: -50px; }
@@ -279,7 +277,7 @@
   .electro .header {
     background: url("../img/electro/768_electro_proporc.jpg") no-repeat; }
   .electro .block-2 {
-    background-position-y: 600px; }
+    background-position-y: 650px; }
   .electro .block-5 {
     background: url("../img/electro/768_electro3.jpg") no-repeat;
     margin-bottom: 20px; }
@@ -672,7 +670,7 @@
   .electro .block-2 {
     background: url("../img/electro/bl2-bg.jpg") no-repeat;
     background-size: contain;
-    background-position-y: 750px; } }
+    background-position-y: 800px; } }
 
 @media only screen and (max-width: 375px) {
   .acustic .header {
@@ -701,7 +699,7 @@
   .electro .block-2 {
     background: url("../img/electro/bl2-bg.jpg") no-repeat;
     background-size: contain;
-    background-position-y: 800px; } }
+    background-position-y: 890px; } }
 
 @media only screen and (max-width: 320px) {
   .acustic .header {
@@ -733,6 +731,6 @@
   .electro .block-2 {
     background: url("../img/electro/bl2-bg.jpg") no-repeat;
     background-size: contain;
-    background-position-y: 850px; }
+    background-position-y: 950px; }
   .electro .footer {
     background-position-x: 0; } }
