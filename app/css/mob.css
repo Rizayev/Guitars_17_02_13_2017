@@ -50,7 +50,10 @@
     background-position-y: -15px;
     background-position-x: -200px; }
   .electro .footer {
-    background-position-x: -420px; }
+    background: url("../img/electro/Guitar_School_electro_pic5.jpg") no-repeat;
+    background-size: contain;
+    padding-bottom: 200px;
+    background-position-y: 350px; }
   .electro .block-2 {
     background-position-y: 600px;
     padding-bottom: 600px; }
@@ -73,7 +76,12 @@
   .acustic #block-2-fimg3 {
     top: 5px; }
   .acustic #block-2-fimg4 {
-    top: -2px; } }
+    top: -2px; }
+  .electro .footer {
+    background: url("../img/electro/Guitar_School_electro_pic5.jpg") no-repeat;
+    background-size: contain;
+    padding-bottom: 550px;
+    background-position-y: 650px; } }
 
 @media only screen and (max-width: 1200px) {
   .footer .header--form input {
@@ -286,8 +294,7 @@
   .electro .block-6 {
     padding: 0; }
   .electro .footer {
-    padding-bottom: 600px;
-    background: url("../img/electro/768_electro4.jpg") no-repeat;
+    padding-bottom: 400px;
     background-position-y: 600px; } }
 
 /* Extra Small Devices, Phones */
@@ -364,7 +371,11 @@
   .children .header {
     background: url("../img/children/767_children.jpg") no-repeat; }
   .electro .header {
-    background: url("../img/electro/767_electro-1.jpg") no-repeat; } }
+    background: url("../img/electro/767_electro-1.jpg") no-repeat; }
+  .electro .footer {
+    background: url("../img/electro/Guitar_School_electro_pic5.jpg") no-repeat;
+    padding-bottom: 400px;
+    background-position-y: 600px; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 640px) {
@@ -511,6 +522,11 @@
     background-position-y: -130px; }
   .electro .header-h2 {
     margin-bottom: 620px; }
+  .electro .footer {
+    background: url("../img/electro/Guitar_School_electro_pic5.jpg") no-repeat;
+    background-size: contain;
+    -ms-background-position-y: 500px;
+    background-position-y: 700px; }
   .vocal .header {
     background: url("../img/vocal/Guitar_plays_vocal_677.jpg") no-repeat;
     background-position-y: -140px; }
