@@ -671,6 +671,8 @@ h2 {
   background: none !important; }
   .electro .footer form {
     margin-bottom: 0px; }
+  .electro .footer .footerbg {
+    margin: 0 auto; }
 
 .electro #block-2-fimg2 {
   top: -32px; }
