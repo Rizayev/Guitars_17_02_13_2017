@@ -664,20 +664,11 @@ h2 {
   margin-top: 50px; }
 
 .electro .footer {
-  background: url("../img/electro/Guitar_School_electro_pic5.jpg") no-repeat !important;
-  padding-left: 0; }
-  .electro .footer .footer-phone {
-    margin-bottom: 50px; }
-  .electro .footer .social {
-    border: none;
-    margin-top: 0;
-    padding-left: 0;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex; }
-    .electro .footer .social li {
-      margin-right: 10px; }
+  background: none !important;
+  padding-left: 0;
+  padding-bottom: 0; }
+  .electro .footer form {
+    margin-bottom: 100px; }
 
 .electro #block-2-fimg2 {
   top: -32px; }
