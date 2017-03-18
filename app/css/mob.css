@@ -17,7 +17,9 @@
   .acustic .block-6 {
     background-position-x: -150px; }
   .electro .block-2 {
-    padding-bottom: 500px; } }
+    padding-bottom: 500px; }
+  .electro .block-6 {
+    background-position-x: 150px; } }
 
 @media only screen and (max-width: 1024px) {
   .acustic .header {
@@ -51,7 +53,9 @@
     background-position-x: -420px; }
   .electro .block-2 {
     background-position-y: 600px;
-    padding-bottom: 600px; } }
+    padding-bottom: 600px; }
+  .electro .block-6 .block-6__h2 {
+    margin-bottom: 50px; } }
 
 @media only screen and (max-width: 1199px) {
   .header-h1 {

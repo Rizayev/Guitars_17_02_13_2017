@@ -648,9 +648,14 @@ h2 {
   padding-bottom: 0; }
 
 .electro .block-6 {
+  background: url("../img/electro/electro_pc.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
-  padding-top: 460px; }
+  background-position-x: 120px;
+  background-position-y: 100px;
+  padding-bottom: 200px; }
+  .electro .block-6 .container {
+    padding-top: 150px; }
 
 .electro .teachers p {
   margin-left: -10px; }
