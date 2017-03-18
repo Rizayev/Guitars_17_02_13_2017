@@ -689,6 +689,7 @@
     background-position-y: -240px; }
   .vocal .header {
     background: url("../img/vocal/Guitar_plays_vocal_425.jpg") no-repeat;
+    background-position: center center;
     background-position-y: 300px; }
   .vocal .header-h1 {
     line-height: 20px; }
@@ -735,7 +736,11 @@
   .electro .block-2 {
     background: url("../img/electro/bl2-bg.jpg") no-repeat;
     background-size: contain;
-    background-position-y: 890px; } }
+    background-position-y: 890px; }
+  .vocal .header {
+    background: url("../img/vocal/Guitar_plays_vocal_425.jpg") no-repeat;
+    background-position: center center;
+    background-position-y: 350px; } }
 
 @media only screen and (max-width: 320px) {
   .acustic .header {
@@ -769,4 +774,8 @@
     background-size: contain;
     background-position-y: 950px; }
   .electro .footer {
-    background-position-x: 0; } }
+    background-position-x: 0; }
+  .vocal .header {
+    background: url("../img/vocal/Guitar_plays_vocal_425.jpg") no-repeat;
+    background-position: center center;
+    background-position-y: 380px; } }
