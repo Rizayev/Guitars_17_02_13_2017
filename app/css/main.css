@@ -629,10 +629,8 @@ h2 {
   background: url("../img/vocal/vocal-bg-modal.jpg"); }
 
 .vocal .block-2 {
-  background: url("../img/vocal/pc.jpg") no-repeat;
-  background-size: contain;
-  background-position-y: 400px;
-  padding-bottom: 1338px; }
+  background: none !important;
+  padding-bottom: 0; }
 
 .vocal .block-3 {
   background-position: bottom center; }
