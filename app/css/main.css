@@ -664,8 +664,11 @@ h2 {
   margin-top: 50px; }
 
 .electro .footer {
-  background: none;
-  padding-bottom: 0; }
+  background: none !important;
+  padding-bottom: 0 !important;
+  padding-left: 0; }
+  .electro .footer .footerbg {
+    margin: 0 auto; }
 
 .electro #block-2-fimg2 {
   top: -32px; }
