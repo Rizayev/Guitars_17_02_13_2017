@@ -631,6 +631,10 @@ h2 {
 .vocal #myModal .modal-content {
   background: url("../img/vocal/vocal-bg-modal.jpg"); }
 
+.vocal .block-2 {
+  background: url("../img/vocal/pc.jpg") no-repeat;
+  background-position-y: 200px; }
+
 .electro .header {
   background: url("../img/electro/header-bg.jpg") no-repeat;
   background-position: center center;
