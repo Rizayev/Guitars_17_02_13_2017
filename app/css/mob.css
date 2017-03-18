@@ -1,4 +1,8 @@
 /* Large Devices, Wide Screens */
+@media only screen and (max-width: 2650px) {
+  .acustic .block-3 {
+    background-position-x: 0; } }
+
 @media only screen and (max-width: 1450px) {
   .header {
     background-position-x: 0px; }
