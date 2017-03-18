@@ -15,7 +15,9 @@
   .acustic .block-5 {
     background-position-y: -90px; }
   .acustic .block-6 {
-    background-position-x: -150px; } }
+    background-position-x: -150px; }
+  .electro .block-2 {
+    background-position-y: 500px; } }
 
 @media only screen and (max-width: 1024px) {
   .acustic .header {
@@ -49,7 +51,9 @@
     -ms-background-position-y: 450px;
     background-position-y: 450px; }
   .electro .footer {
-    background-position-x: -420px; } }
+    background-position-x: -420px; }
+  .electro .block-2 {
+    background-position-y: 500px; } }
 
 @media only screen and (max-width: 1199px) {
   .header-h1 {
@@ -274,6 +278,8 @@
     padding: 0; }
   .electro .header {
     background: url("../img/electro/768_electro_proporc.jpg") no-repeat; }
+  .electro .block-2 {
+    background-position-y: 600px; }
   .electro .block-5 {
     background: url("../img/electro/768_electro3.jpg") no-repeat;
     margin-bottom: 20px; }
@@ -666,7 +672,7 @@
   .electro .block-2 {
     background: url("../img/electro/bl2-bg.jpg") no-repeat;
     background-size: contain;
-    background-position-y: 700px; } }
+    background-position-y: 750px; } }
 
 @media only screen and (max-width: 375px) {
   .acustic .header {
@@ -695,7 +701,7 @@
   .electro .block-2 {
     background: url("../img/electro/bl2-bg.jpg") no-repeat;
     background-size: contain;
-    background-position-y: 750px; } }
+    background-position-y: 800px; } }
 
 @media only screen and (max-width: 320px) {
   .acustic .header {
