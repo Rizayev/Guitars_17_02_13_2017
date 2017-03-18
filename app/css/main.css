@@ -647,6 +647,9 @@ h2 {
   background-size: cover;
   padding-bottom: 0; }
 
+.electro .block-7 {
+  margin-bottom: 150px; }
+
 .electro .block-6 {
   background: url("../img/electro/electro_pc.jpg") no-repeat;
   background-position: center center;
@@ -664,11 +667,10 @@ h2 {
   margin-top: 50px; }
 
 .electro .footer {
-  background: none !important;
+  background: url("../img/electro/Guitar_School_electro_pic5.jpg") no-repeat;
   padding-left: 0;
   padding-bottom: 0;
-  min-height: auto;
-  margin-bottom: 100px; }
+  min-height: auto; }
   .electro .footer form {
     margin-bottom: 100px; }
 
