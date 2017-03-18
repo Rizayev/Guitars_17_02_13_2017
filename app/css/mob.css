@@ -307,7 +307,9 @@
     padding: 0; }
   .electro .footer {
     padding-bottom: 400px;
-    background-position-y: 800px; } }
+    background-position-y: 800px; }
+  .vocal .header {
+    background: url("../img/vocal/768_vocal_1.jpg") no-repeat; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 767px) {
@@ -382,6 +384,8 @@
     line-height: 22px; }
   .children .header {
     background: url("../img/children/767_children.jpg") no-repeat; }
+  .vocal .header {
+    background: url("../img/vocal/767_vocal.jpg") no-repeat; }
   .electro .header {
     background: url("../img/electro/767_electro-1.jpg") no-repeat; }
   .electro .footer {
