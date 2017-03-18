@@ -637,6 +637,9 @@ h2 {
   background-position-y: 400px;
   padding-bottom: 1338px; }
 
+.vocal .block-3 {
+  background-position-y: 84px; }
+
 .electro .header {
   background: url("../img/electro/header-bg.jpg") no-repeat;
   background-position: center center;
