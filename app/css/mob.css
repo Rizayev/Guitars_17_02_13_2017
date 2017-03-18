@@ -211,7 +211,7 @@
   .block-5 .price .price-item {
     width: 335px; }
   .block-6__name, .block-6__position, .block-6__info {
-    text-align: left; }
+    text-align: center; }
   .acustic .header {
     min-height: auto; }
   .header-h1 {
@@ -435,7 +435,7 @@
     margin-bottom: 30px;
     margin-top: 50px; }
   .block-6__name, .block-6__position, .block-6__info {
-    text-align: left; }
+    text-align: center; }
   .block-7 h2 {
     font-size: 24px;
     font-weight: 700; }
