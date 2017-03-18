@@ -740,7 +740,7 @@
   .vocal .header {
     background: url("../img/vocal/Guitar_plays_vocal_425.jpg") no-repeat;
     background-position: center center;
-    background-position-y: 350px; } }
+    background-position-y: 360px; } }
 
 @media only screen and (max-width: 320px) {
   .acustic .header {
