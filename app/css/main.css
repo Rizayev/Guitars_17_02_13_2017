@@ -640,7 +640,9 @@ h2 {
   margin-bottom: -22px; }
 
 .vocal .block-5 {
-  background: url("../img/vocal/price.jpg") no-repeat; }
+  background: url("../img/vocal/price.jpg") no-repeat;
+  background-size: contain;
+  background-position: center center; }
 
 .vocal .block-6 {
   background: url("../img/vocal/teachers.jpg") no-repeat; }
