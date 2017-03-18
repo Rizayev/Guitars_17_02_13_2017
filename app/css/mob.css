@@ -47,13 +47,11 @@
   .acustic .block-5 {
     background-position-y: -15px;
     background-position-x: -200px; }
-  .electro .block-2 {
-    -ms-background-position-y: 450px;
-    background-position-y: 450px; }
   .electro .footer {
     background-position-x: -420px; }
   .electro .block-2 {
-    background-position-y: 600px; } }
+    background-position-y: 600px;
+    padding-bottom: 600px; } }
 
 @media only screen and (max-width: 1199px) {
   .header-h1 {
