@@ -668,8 +668,9 @@ h2 {
   top: -32px; }
 
 .electro .block-2 {
-  background: url("../img/electro/bl2-bg.jpg") no-repeat;
+  background: url("../img/electro/Guitar_School_electro_pic2.jpg") no-repeat;
   background-size: contain;
+  background-position: center center;
   background-position-y: 340px; }
 
 .electro .block-2__feature___item:first-child {
