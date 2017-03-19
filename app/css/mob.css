@@ -398,8 +398,10 @@
 @media only screen and (max-width: 640px) {
   .price-item__note {
     max-width: 100%; }
-  .phone-icon img {
-    width: 40%; }
+  .phone-icon {
+    right: -110px; }
+    .phone-icon img {
+      width: 40%; }
   .header {
     background-size: cover;
     background-position-y: -70px;
