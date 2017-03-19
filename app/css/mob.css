@@ -99,18 +99,19 @@
     top: 5px; }
   .acustic #block-2-fimg4 {
     top: -2px; }
-  .electro {
-    left: 50px; }
-    .electro #block-2-fimg2 {
-      top: -32px;
-      left: 50px; }
-    .electro #block-2-fimg3 {
-      top: 0px; }
-    .electro .footer {
-      background: url("../img/electro/Guitar_School_electro_pic5.jpg") no-repeat;
-      background-size: contain;
-      padding-bottom: 550px;
-      background-position-y: 650px; } }
+  .electro #block-2-fimg1 {
+    left: 50%; }
+  .electro #block-2-fimg2 {
+    top: -32px;
+    left: 50%; }
+  .electro #block-2-fimg3 {
+    top: 0px;
+    left: 50%; }
+  .electro .footer {
+    background: url("../img/electro/Guitar_School_electro_pic5.jpg") no-repeat;
+    background-size: contain;
+    padding-bottom: 550px;
+    background-position-y: 650px; } }
 
 @media only screen and (max-width: 1200px) {
   .footer .header--form input {
@@ -327,12 +328,13 @@
     padding-bottom: 400px;
     background-position-y: 800px; }
   .electro #block-2-fimg1 {
-    left: 50px; }
+    left: 45%; }
   .electro #block-2-fimg2 {
     top: -32px;
-    left: 50px; }
+    left: 45%; }
   .electro #block-2-fimg3 {
-    top: 0px; }
+    top: 0px;
+    left: 45%; }
   .vocal .header {
     background: url("../img/vocal/768_vocal_1.jpg") no-repeat; } }
 
