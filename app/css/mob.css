@@ -336,7 +336,9 @@
     top: 0px;
     left: 45%; }
   .vocal .header {
-    background: url("../img/vocal/768_vocal_1.jpg") no-repeat; } }
+    background: url("../img/vocal/768_vocal_1.jpg") no-repeat; }
+  .vocal .block-5 {
+    background: url("../img/vocal/768_vocal_3.jpg") no-repeat; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 767px) {
