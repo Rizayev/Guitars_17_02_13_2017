@@ -419,7 +419,9 @@
   .electro .footer {
     background: url("../img/electro/Guitar_School_electro_pic5.jpg") no-repeat;
     padding-bottom: 400px;
-    background-position-y: 600px; } }
+    background-position-y: 600px; }
+  .electro #block-2-fimg3 {
+    left: 140px; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 640px) {
@@ -569,6 +571,8 @@
     background-size: contain;
     -ms-background-position-y: 500px;
     background-position-y: 700px; }
+  .electro #block-2-fimg2 {
+    top: -31px; }
   .vocal .header {
     background: url("../img/vocal/Guitar_plays_vocal_677.jpg") no-repeat;
     background-position: center center;
