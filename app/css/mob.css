@@ -425,6 +425,8 @@
     background: url("../img/children/767_children.jpg") no-repeat; }
   .vocal .header {
     background: url("../img/vocal/767_vocal.jpg") no-repeat; }
+  .vocal .footer {
+    padding-left: 0; }
   .electro .header {
     background: url("../img/electro/767_electro-1.jpg") no-repeat; }
   .electro .footer {
