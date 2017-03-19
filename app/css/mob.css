@@ -407,9 +407,9 @@
 @media only screen and (max-width: 640px) {
   .price-item__note {
     max-width: 100%; }
-  .phone-icon {
-    right: -110px; }
-    .phone-icon img {
+  .acustic .phone-icon {
+    right: -121px; }
+    .acustic .phone-icon img {
       width: 35%; }
   .header {
     background-size: cover;
