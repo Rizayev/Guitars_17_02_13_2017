@@ -641,6 +641,7 @@ h2 {
 
 .vocal .block-5 {
   background: url("../img/vocal/price.jpg") no-repeat;
+  background-size: contain !important;
   background-position: center center !important; }
 
 .vocal .block-6 {
