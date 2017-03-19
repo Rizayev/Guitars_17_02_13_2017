@@ -645,7 +645,8 @@ h2 {
   background-position: center center !important; }
 
 .vocal .block-6 {
-  background: url("../img/vocal/teachers.jpg") no-repeat; }
+  background: url("../img/vocal/teachers.jpg") no-repeat;
+  background-size: cover; }
 
 .electro .header {
   background: url("../img/electro/Guitar_School_electro_pic1_2.jpg") no-repeat;
