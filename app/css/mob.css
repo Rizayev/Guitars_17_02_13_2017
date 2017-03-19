@@ -740,7 +740,9 @@
   .electro .block-2 {
     background: url("../img/electro/bl2-bg.jpg") no-repeat;
     background-size: contain;
-    background-position-y: 800px; } }
+    background-position-y: 800px; }
+  .electro #block-2-fimg2 {
+    top: -32px; } }
 
 @media only screen and (max-width: 375px) {
   .phone-icon {
