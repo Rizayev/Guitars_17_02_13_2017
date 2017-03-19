@@ -113,11 +113,11 @@
   .block-3__lessons > div:nth-child(3) .block-3__lessons__title:after {
     content: none; }
   .block-3__lessons__title {
-    font-size: 30px; }
+    font-size: 22px; }
   .block-3__lessons__info {
-    width: 256px;
     margin: 0 auto;
-    font-size: 18px; } }
+    font-size: 14px;
+    line-height: 22px; } }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 991px) {
