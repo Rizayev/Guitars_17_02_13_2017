@@ -216,10 +216,8 @@
     background-repeat: no-repeat;
     background-position: 0 0; }
   .phone-icon {
-    top: auto;
-    bottom: 20px;
-    left: 20px;
-    right: auto; }
+    top: 150px;
+    right: -70px; }
   .block-2 {
     padding-bottom: 200px; }
   .block-3__gallery {
