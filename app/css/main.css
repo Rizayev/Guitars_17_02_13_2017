@@ -618,9 +618,7 @@ h2 {
   left: 100px; }
 
 .vocal .footer {
-  background: url("../img/vocal/footer-bg.jpg") no-repeat;
-  padding-bottom: 800px;
-  background-position-y: 300px; }
+  background: none !important; }
 
 .vocal .menu-icons__1 {
   left: 4px; }
