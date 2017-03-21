@@ -347,7 +347,11 @@
     background: url("../img/vocal/768_vocal_1.jpg") no-repeat; }
   .vocal .block-5 {
     background: url("../img/vocal/768_vocal_3.jpg") no-repeat;
-    background-size: contain; } }
+    background-size: contain; }
+  .vocal .phone-icon {
+    right: -100px; }
+    .vocal .phone-icon img {
+      width: 40%; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 767px) {
