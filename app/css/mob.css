@@ -88,7 +88,9 @@
   .electro .block-6 .block-6__h2 {
     margin-bottom: 50px; }
   .electro .block-6 .container {
-    padding-top: 0; } }
+    padding-top: 0; }
+  .vocal .block-2__feature___item img {
+    left: 80px; } }
 
 @media only screen and (max-width: 1199px) {
   .header-h1 {
@@ -121,7 +123,11 @@
     background: url("../img/electro/Guitar_School_electro_pic5.jpg") no-repeat;
     background-size: contain;
     padding-bottom: 550px;
-    background-position-y: 650px; } }
+    background-position-y: 650px; }
+  .vocal .block-2__feature___item img {
+    left: 50%; }
+  .vocal #block-2-fimg2 {
+    left: 40%; } }
 
 @media only screen and (max-width: 1200px) {
   .footer .header--form input {
