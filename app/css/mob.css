@@ -37,7 +37,11 @@
   .electro .block-2 {
     padding-bottom: 500px; }
   .electro .block-6 {
-    background-position-x: 150px; } }
+    background-position-x: 150px; }
+  .vocal .block-6 {
+    background: url("../img/vocal/Guitar_School_vocal2.png") no-repeat;
+    background-position: center right;
+    background-size: contain; } }
 
 @media only screen and (max-width: 1024px) {
   .acustic .header {
