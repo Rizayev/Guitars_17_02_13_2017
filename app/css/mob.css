@@ -127,7 +127,8 @@
   .vocal .block-2__feature___item img {
     left: 50%; }
   .vocal #block-2-fimg2 {
-    left: 40%; } }
+    left: 40%;
+    top: -40px; } }
 
 @media only screen and (max-width: 1200px) {
   .footer .header--form input {
