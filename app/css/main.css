@@ -642,7 +642,7 @@ h2 {
 
 .vocal .block-5 {
   background: url("../img/vocal/Guitar_School_vocal_pic2_2.jpg") no-repeat;
-  background-size: contain !important;
+  background-size: cover !important;
   background-position: center center !important; }
 
 .vocal .block-6 {
