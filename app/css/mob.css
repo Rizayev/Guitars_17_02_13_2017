@@ -616,7 +616,9 @@
     background-position: center center;
     background-position-y: -140px; }
   .vocal .header-h2 {
-    margin-bottom: 600px; } }
+    margin-bottom: 600px; }
+  .vocal #block-2-fimg2 {
+    left: 15%; } }
 
 @media only screen and (max-width: 515px) {
   .acustic #block-2-fimg1 {
