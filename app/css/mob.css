@@ -353,6 +353,11 @@
     right: -60px; } }
 
 /* Extra Small Devices, Phones */
+@media only screen and (max-width: 700px) {
+  .vocal .phone-icon {
+    width: 130px;
+    right: -45px; } }
+
 @media only screen and (max-width: 767px) {
   .price .price-item {
     width: 50%; }
