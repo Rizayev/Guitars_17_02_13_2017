@@ -22,13 +22,7 @@
     background-position-x: 0px; }
   .header-h1 {
     font-size: 32px;
-    line-height: 36px; }
-  .vocal .block-6 {
-    background: url("../img/vocal/teachers.jpg") no-repeat;
-    background-position: center center !important;
-    background-position-y: 135px !important;
-    background-position-x: 150px !important;
-    background-size: cover; } }
+    line-height: 36px; } }
 
 @media only screen and (max-width: 1440px) {
   .acustic .block-2 {
