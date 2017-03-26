@@ -1,6 +1,6 @@
 <?php
 
-$to1      =  'rizaeve@bk.ru';
+$to1      =  'belozertsev-danil@mail.ru';
 $subject = 'Заявка на сайте ';
 $message = 'На сайт '.$_SERVER['SERVER_NAME'].' поступила новая заявка.<br>';
 
